@@ -1,0 +1,1548 @@
+[
+{
+"id": "BR-BRASPECS",
+"name": "Brazilian Soil Spectral Service (BraSpecS)",
+"scale": "Global",
+"countries": [],
+"continent": "Global",
+"spectral": null,
+"spectral_tags": [
+"vis-NIR",
+"MIR"
+],
+"samples": 49753,
+"size_text": "49753 (vis-NIR-SWIR) / 4951 (MIR) (row 69)",
+"availability": null,
+"intro_in_review": true,
+"intro_ref": "Demattê et al. 2022",
+"intro_row": 69,
+"papers": [
+42,
+69
+],
+"notes": null,
+"point": null,
+"point_source": null
+},
+{
+"id": "GL-BROWN",
+"name": "Global VNIR diffuse reflectance library (Brown et al.)",
+"scale": "Global",
+"countries": [],
+"continent": "Global",
+"spectral": "VNIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 4184,
+"size_text": "4184 (3768 USA; 416 from outside the USA) (row 96)",
+"availability": "Not specified in available sources",
+"intro_in_review": true,
+"intro_ref": "Brown et al. 2006",
+"intro_row": 96,
+"papers": [
+96
+],
+"notes": null,
+"point": null,
+"point_source": null
+},
+{
+"id": "GL-GSSL",
+"name": "Global Soil vis-NIR Spectral Library (GSSL)",
+"scale": "Global",
+"countries": [],
+"continent": "Global",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 23631,
+"size_text": "23631 spectra (row 95)",
+"availability": "Open access publication; library assembled from contributed institutional datasets",
+"intro_in_review": true,
+"intro_ref": "Viscarra Rossel et al. 2016",
+"intro_row": 95,
+"papers": [
+95
+],
+"notes": null,
+"point": null,
+"point_source": null
+},
+{
+"id": "GL-ICRAF-MIR",
+"name": "ICRAF-ISRIC global MIR library",
+"scale": "Global",
+"countries": [],
+"continent": "Global",
+"spectral": "MIR (mid-infrared)",
+"spectral_tags": [
+"MIR"
+],
+"samples": 971,
+"size_text": "971 (row 97)",
+"availability": "Not specified in available sources",
+"intro_in_review": true,
+"intro_ref": "Terhoeven-Urselmans et al. 2010",
+"intro_row": 97,
+"papers": [
+97
+],
+"notes": null,
+"point": null,
+"point_source": null
+},
+{
+"id": "GL-ICRAF-VNIR",
+"name": "ICRAF-ISRIC global vis-NIR library",
+"scale": "Global",
+"countries": [],
+"continent": "Global",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 4437,
+"size_text": "4437 (row 68)",
+"availability": "Restricted (ICRAF-ISRIC global database)",
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+57,
+68,
+85
+],
+"notes": "Candidate primary reference: ICRAF-ISRIC Soil VNIR Spectral Library dataset (World Agroforestry dataverse) – verify",
+"point": null,
+"point_source": null
+},
+{
+"id": "GL-OSSL",
+"name": "Open Soil Spectral Library (OSSL)",
+"scale": "Global",
+"countries": [],
+"continent": "Global",
+"spectral": "VisNIR and MIR",
+"spectral_tags": [
+"vis-NIR",
+"MIR"
+],
+"samples": 135651,
+"size_text": "135651 (row 16)",
+"availability": "Open (public, reproducible, Zenodo-hosted)",
+"intro_in_review": true,
+"intro_ref": "Safanelli et al. 2025",
+"intro_row": 16,
+"papers": [
+16,
+89
+],
+"notes": null,
+"point": null,
+"point_source": null
+},
+{
+"id": "GL-TOPMIR",
+"name": "Globally distributed topsoil MIR library",
+"scale": "Global",
+"countries": [],
+"continent": "Global",
+"spectral": "MIR (mid-infrared)",
+"spectral_tags": [
+"MIR"
+],
+"samples": null,
+"size_text": null,
+"availability": "Not specified in available sources",
+"intro_in_review": true,
+"intro_ref": "Hong et al. 2024",
+"intro_row": 112,
+"papers": [
+112
+],
+"notes": "Check whether this is a subset of KSSL/OSSL rather than a separate library",
+"point": null,
+"point_source": null
+},
+{
+"id": "AF-ICRAF-ESA",
+"name": "ICRAF Eastern & Southern Africa reflectance library",
+"scale": "Continental / regional",
+"countries": [],
+"continent": "Africa",
+"spectral": "vis-NIR-SWIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 971,
+"size_text": "274 (South Africa) + 697 (Eastern Africa); row 113 reports >1000 archived topsoils (row 52)",
+"availability": "Restricted (ICRAF archive-based library)",
+"intro_in_review": true,
+"intro_ref": "Shepherd & Walsh 2002",
+"intro_row": 52,
+"papers": [
+52
+],
+"notes": "Countries not itemised in the sheet",
+"point": null,
+"point_source": null
+},
+{
+"id": "EU-LUCAS-VNIR",
+"name": "LUCAS topsoil vis-NIR library",
+"scale": "Continental / regional",
+"countries": [],
+"continent": "Europe",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 19969,
+"size_text": "19969 (row 39)",
+"availability": "Restricted (LUCAS topsoil database)",
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+17,
+36,
+37,
+39,
+106
+],
+"notes": "Candidate primary reference: Orgiazzi et al. 2018 (EJSS), LUCAS Soil dataset – verify",
+"point": null,
+"point_source": null
+},
+{
+"id": "AF-CENTRAL",
+"name": "Central African Soil Spectral Library",
+"scale": "Multi-country",
+"countries": [
+"DR Congo",
+"Rwanda",
+"Uganda"
+],
+"continent": "Africa",
+"spectral": "MIR",
+"spectral_tags": [
+"MIR"
+],
+"samples": 1800,
+"size_text": "1800 (row 32)",
+"availability": "Open (GitHub repository; openly available for reuse and enlargement)",
+"intro_in_review": true,
+"intro_ref": "Summerauer et al. 2021",
+"intro_row": 32,
+"papers": [
+32
+],
+"notes": null,
+"point": [
+28.645,
+-1.198
+],
+"point_source": "country centroid"
+},
+{
+"id": "AF-WEST",
+"name": "West African NIR spectral library",
+"scale": "Multi-country",
+"countries": [
+"Benin",
+"Burkina Faso",
+"Congo",
+"Togo",
+"Cameroon"
+],
+"continent": "Africa",
+"spectral": null,
+"spectral_tags": [
+"NIR"
+],
+"samples": 181,
+"size_text": "181 (row 33)",
+"availability": null,
+"intro_in_review": true,
+"intro_ref": "Cambou et al. 2024",
+"intro_row": 33,
+"papers": [
+33
+],
+"notes": null,
+"point": [
+5.899,
+7.058
+],
+"point_source": "country centroid"
+},
+{
+"id": "EU-LUCAS-MIR4",
+"name": "LUCAS-based MIR library (BE/LU/DE/NL)",
+"scale": "Multi-country",
+"countries": [
+"Belgium",
+"Luxembourg",
+"Germany",
+"Netherlands"
+],
+"continent": "Europe",
+"spectral": "MIR (mid-infrared)",
+"spectral_tags": [
+"MIR"
+],
+"samples": 1013,
+"size_text": "1013 (row 7)",
+"availability": "Restricted (subset of LUCAS)",
+"intro_in_review": true,
+"intro_ref": "Leenen et al. 2022",
+"intro_row": 7,
+"papers": [
+7
+],
+"notes": null,
+"point": [
+6.681,
+50.944
+],
+"point_source": "country centroid"
+},
+{
+"id": "MED-GEOCRADLE",
+"name": "GEO-CRADLE soil spectral library",
+"scale": "Multi-country",
+"countries": [
+"Greece",
+"Israel",
+"Albania",
+"Bulgaria",
+"Serbia",
+"Turkey",
+"Cyprus",
+"Egypt"
+],
+"continent": "Europe / Asia / Africa",
+"spectral": "VIS-NIR-SWIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 1760,
+"size_text": "1760 (row 31)",
+"availability": "Restricted/regional (GEO-CRADLE network)",
+"intro_in_review": true,
+"intro_ref": "Tziolas et al. 2019",
+"intro_row": 31,
+"papers": [
+30,
+31
+],
+"notes": null,
+"point": [
+27.742,
+37.435
+],
+"point_source": "country centroid"
+},
+{
+"id": "AT-NIR",
+"name": "Austrian NIR soil spectral library",
+"scale": "National",
+"countries": [
+"Austria"
+],
+"continent": "Europe",
+"spectral": "NIR",
+"spectral_tags": [
+"NIR"
+],
+"samples": 2129,
+"size_text": "2129 (row 43)",
+"availability": "Open (Zenodo, versioned dataset, CC-BY 4.0)",
+"intro_in_review": true,
+"intro_ref": "Fohrafellner et al. 2026",
+"intro_row": 43,
+"papers": [
+43
+],
+"notes": null,
+"point": [
+14.126,
+47.586
+],
+"point_source": "country centroid"
+},
+{
+"id": "AU-SCARP",
+"name": "Soil Carbon Research Program (SCaRP) MIR library",
+"scale": "National",
+"countries": [
+"Australia"
+],
+"continent": "Oceania",
+"spectral": "MIR (mid-infrared); spectra also covered part of the NIR region",
+"spectral_tags": [
+"MIR"
+],
+"samples": 20495,
+"size_text": "20495 samples from 4526 locations (row 100)",
+"availability": "Not specified in available sources",
+"intro_in_review": true,
+"intro_ref": "Baldock et al. 2013",
+"intro_row": 100,
+"papers": [
+100
+],
+"notes": null,
+"point": [
+134.355,
+-25.573
+],
+"point_source": "country centroid"
+},
+{
+"id": "AU-VNIR",
+"name": "Australian soil vis-NIR spectroscopic database",
+"scale": "National",
+"countries": [
+"Australia"
+],
+"continent": "Oceania",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 20000,
+"size_text": "~20000 (archived samples) (row 99)",
+"availability": "Not specified in available sources",
+"intro_in_review": true,
+"intro_ref": "Viscarra Rossel & Webster 2012",
+"intro_row": 99,
+"papers": [
+40,
+99
+],
+"notes": null,
+"point": [
+134.355,
+-25.573
+],
+"point_source": "country centroid"
+},
+{
+"id": "BR-BSSL",
+"name": "Brazilian Soil Spectral Library (BSSL, vis-NIR-SWIR)",
+"scale": "National",
+"countries": [
+"Brazil"
+],
+"continent": "South America",
+"spectral": "VIS-NIR-SWIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 39284,
+"size_text": "39284 (row 58)",
+"availability": "Open (later releases via Zenodo)",
+"intro_in_review": true,
+"intro_ref": "Demattê 2019",
+"intro_row": 58,
+"papers": [
+5,
+6,
+28,
+29,
+37,
+55,
+58
+],
+"notes": null,
+"point": [
+-53.117,
+-10.84
+],
+"point_source": "country centroid"
+},
+{
+"id": "BR-BSSL-MIR",
+"name": "Brazilian soil MIR Spectral Library",
+"scale": "National",
+"countries": [
+"Brazil"
+],
+"continent": "South America",
+"spectral": null,
+"spectral_tags": [
+"MIR"
+],
+"samples": 4309,
+"size_text": "4309 (MIR) (row 64)",
+"availability": null,
+"intro_in_review": true,
+"intro_ref": "Mendes et al. 2022",
+"intro_row": 64,
+"papers": [
+64
+],
+"notes": null,
+"point": [
+-53.117,
+-10.84
+],
+"point_source": "country centroid"
+},
+{
+"id": "CH-MIR",
+"name": "Swiss MIR soil spectral library",
+"scale": "National",
+"countries": [
+"Switzerland"
+],
+"continent": "Europe",
+"spectral": "MIR",
+"spectral_tags": [
+"MIR"
+],
+"samples": 4374,
+"size_text": "4374 (row 66)",
+"availability": "Restricted (national monitoring network)",
+"intro_in_review": true,
+"intro_ref": "Baumann et al. 2021",
+"intro_row": 65,
+"papers": [
+65,
+66
+],
+"notes": null,
+"point": [
+8.208,
+46.798
+],
+"point_source": "country centroid"
+},
+{
+"id": "CN-CSSL",
+"name": "Chinese Soil Spectral Library (CSSL)",
+"scale": "National",
+"countries": [
+"China"
+],
+"continent": "Asia",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 4086,
+"size_text": "4086 (row 62)",
+"availability": "Restricted (Chinese Soil Spectral Library, CSSL)",
+"intro_in_review": true,
+"intro_ref": "Shi et al. 2014",
+"intro_row": 25,
+"papers": [
+25,
+51,
+59,
+61,
+62
+],
+"notes": null,
+"point": [
+103.797,
+36.617
+],
+"point_source": "country centroid"
+},
+{
+"id": "CZ-FOREST",
+"name": "Czech national forest soil spectral dataset",
+"scale": "National",
+"countries": [
+"Czechia"
+],
+"continent": "Europe",
+"spectral": "Not specified in available sources",
+"spectral_tags": [
+"Not recorded"
+],
+"samples": null,
+"size_text": null,
+"availability": "Not specified in available sources",
+"intro_in_review": true,
+"intro_ref": "Gholizadeh et al. 2021",
+"intro_row": 103,
+"papers": [
+103
+],
+"notes": null,
+"point": [
+15.312,
+49.733
+],
+"point_source": "country centroid"
+},
+{
+"id": "CZ-SSL",
+"name": "Soil spectral library of the Czech soils (SSL-CZ)",
+"scale": "National",
+"countries": [
+"Czechia"
+],
+"continent": "Europe",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 150,
+"size_text": "150 (row 22)",
+"availability": "Restricted (SSL-CZ, national library)",
+"intro_in_review": true,
+"intro_ref": "Brodský et al. 2011",
+"intro_row": 22,
+"papers": [
+22
+],
+"notes": null,
+"point": [
+15.312,
+49.733
+],
+"point_source": "country centroid"
+},
+{
+"id": "DK-VNIR",
+"name": "Danish national vis-NIR library",
+"scale": "National",
+"countries": [
+"Denmark"
+],
+"continent": "Europe",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 2851,
+"size_text": "2851 (row 101)",
+"availability": "Not specified in available sources",
+"intro_in_review": true,
+"intro_ref": "Knadel et al. 2012",
+"intro_row": 101,
+"papers": [
+53,
+101
+],
+"notes": null,
+"point": [
+9.356,
+56.241
+],
+"point_source": "country centroid"
+},
+{
+"id": "FR-RMQS-IR",
+"name": "French RMQS NIR/MIR national library",
+"scale": "National",
+"countries": [
+"France"
+],
+"continent": "Europe",
+"spectral": null,
+"spectral_tags": [
+"MIR"
+],
+"samples": null,
+"size_text": null,
+"availability": null,
+"intro_in_review": true,
+"intro_ref": "Clairotte et al. 2016",
+"intro_row": 4,
+"papers": [
+4,
+104
+],
+"notes": null,
+"point": [
+2.453,
+46.62
+],
+"point_source": "country centroid"
+},
+{
+"id": "FR-RMQS-VNIR",
+"name": "French RMQS vis-NIR national database",
+"scale": "National",
+"countries": [
+"France"
+],
+"continent": "Europe",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": null,
+"size_text": null,
+"availability": "Not specified in available sources",
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+102
+],
+"notes": "May be the same RMQS sample set as FR-RMQS-IR measured in vis-NIR – check",
+"point": [
+2.453,
+46.62
+],
+"point_source": "country centroid"
+},
+{
+"id": "HU-HSDOS",
+"name": "Hungarian vis-NIR library (HSDOS)",
+"scale": "National",
+"countries": [
+"Hungary"
+],
+"continent": "Europe",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 5490,
+"size_text": "5490 (row 70)",
+"availability": "Open (published on Zenodo)",
+"intro_in_review": true,
+"intro_ref": "Mészáros et al. 2025",
+"intro_row": 70,
+"papers": [
+70
+],
+"notes": null,
+"point": [
+19.396,
+47.163
+],
+"point_source": "country centroid"
+},
+{
+"id": "HU-SIMS",
+"name": "Hungarian MIR library (SIMS)",
+"scale": "National",
+"countries": [
+"Hungary"
+],
+"continent": "Europe",
+"spectral": "MIR (mid-infrared)",
+"spectral_tags": [
+"MIR"
+],
+"samples": 2200,
+"size_text": "2200 (row 110)",
+"availability": "Not specified in available sources",
+"intro_in_review": true,
+"intro_ref": "MohammedZein et al. 2023",
+"intro_row": 110,
+"papers": [
+110,
+111
+],
+"notes": null,
+"point": [
+19.396,
+47.163
+],
+"point_source": "country centroid"
+},
+{
+"id": "ID-ISSL",
+"name": "Indonesian Soil Spectral Library",
+"scale": "National",
+"countries": [
+"Indonesia"
+],
+"continent": "Asia",
+"spectral": "NIR",
+"spectral_tags": [
+"NIR"
+],
+"samples": 1601,
+"size_text": "1601 (row 27)",
+"availability": "Restricted (Indonesian agricultural ministry-linked dataset)",
+"intro_in_review": true,
+"intro_ref": "Ng et al. 2020",
+"intro_row": 27,
+"papers": [
+27
+],
+"notes": null,
+"point": [
+114.014,
+-0.191
+],
+"point_source": "country centroid"
+},
+{
+"id": "IE-MOM",
+"name": "Irish mineral/organo-mineral MIR library",
+"scale": "National",
+"countries": [
+"Ireland"
+],
+"continent": "Europe",
+"spectral": "MIR (also NIR/XRF used in related work)",
+"spectral_tags": [
+"MIR"
+],
+"samples": 9993,
+"size_text": "9993 (row 90)",
+"availability": "Restricted (Irish national Tellus/Teagasc datasets)",
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+90
+],
+"notes": null,
+"point": [
+-8.135,
+53.174
+],
+"point_source": "country centroid"
+},
+{
+"id": "IL-TAU",
+"name": "Tel Aviv University legacy soil spectral library",
+"scale": "National",
+"countries": [
+"Israel"
+],
+"continent": "Asia",
+"spectral": "LWIR (longwave/thermal infrared)",
+"spectral_tags": [
+"LWIR / thermal"
+],
+"samples": null,
+"size_text": null,
+"availability": "Restricted (Tel-Aviv University legacy library subset)",
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+13,
+87
+],
+"notes": "Size not reported in the sheet (linked papers use 12 and 91-sample subsets)",
+"point": [
+35.004,
+31.461
+],
+"point_source": "country centroid"
+},
+{
+"id": "NZ-SSL",
+"name": "New Zealand soil spectral library",
+"scale": "National",
+"countries": [
+"New Zealand"
+],
+"continent": "Oceania",
+"spectral": "vis-NIR and MIR",
+"spectral_tags": [
+"vis-NIR",
+"MIR"
+],
+"samples": 11246,
+"size_text": "11246 (row 10)",
+"availability": "Restricted/institutional (Manaaki Whenua/Landcare Research)",
+"intro_in_review": true,
+"intro_ref": "Ma et al. 2023",
+"intro_row": 9,
+"papers": [
+9,
+10,
+76
+],
+"notes": null,
+"point": [
+170.528,
+-43.974
+],
+"point_source": "country centroid"
+},
+{
+"id": "PL-PSSL",
+"name": "Polish Soil Spectral Library (PSSL)",
+"scale": "National",
+"countries": [
+"Poland"
+],
+"continent": "Europe",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": null,
+"size_text": null,
+"availability": "Not specified in available sources",
+"intro_in_review": true,
+"intro_ref": "Debaene 2019",
+"intro_row": 109,
+"papers": [
+109
+],
+"notes": null,
+"point": [
+19.39,
+52.128
+],
+"point_source": "country centroid"
+},
+{
+"id": "US-KSSL-MIR",
+"name": "USDA NSSC-KSSL MIR library",
+"scale": "National",
+"countries": [
+"United States"
+],
+"continent": "North America",
+"spectral": "MIR (mid-infrared)",
+"spectral_tags": [
+"MIR"
+],
+"samples": 83876,
+"size_text": "83876 (row 83)",
+"availability": "Not specified in available sources",
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+17,
+79,
+81,
+83,
+98
+],
+"notes": "Candidate primary reference: Wijewardane et al. 2018 (SSSAJ) or Sanderman et al. 2020 – verify",
+"point": [
+-99.143,
+39.526
+],
+"point_source": "country centroid"
+},
+{
+"id": "US-KSSL-VNIR",
+"name": "USDA NSSC-KSSL vis-NIR library",
+"scale": "National",
+"countries": [
+"United States"
+],
+"continent": "North America",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 14574,
+"size_text": "14574 (row 21)",
+"availability": "Restricted (NRCS-KSSL database)",
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+3,
+21
+],
+"notes": null,
+"point": [
+-99.143,
+39.526
+],
+"point_source": "country centroid"
+},
+{
+"id": "AU-COTTON",
+"name": "Eastern Australia cotton-region MIR library",
+"scale": "Sub-national",
+"countries": [
+"Australia"
+],
+"continent": "Oceania",
+"spectral": "MIR (mid-infrared)",
+"spectral_tags": [
+"MIR"
+],
+"samples": 1878,
+"size_text": "1878 (row 35)",
+"availability": "Restricted (Australian Cotton CRC legacy database)",
+"intro_in_review": true,
+"intro_ref": "Rossel et al. 2008",
+"intro_row": 35,
+"papers": [
+35
+],
+"notes": null,
+"point": [
+149.5,
+-29.5
+],
+"point_source": "study region"
+},
+{
+"id": "AU-NSW",
+"name": "New South Wales regional SSL",
+"scale": "Sub-national",
+"countries": [
+"Australia"
+],
+"continent": "Oceania",
+"spectral": null,
+"spectral_tags": [
+"Not recorded"
+],
+"samples": 1867,
+"size_text": "1867 (row 34)",
+"availability": null,
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+34
+],
+"notes": null,
+"point": [
+147.0,
+-32.5
+],
+"point_source": "study region"
+},
+{
+"id": "BR-NEOSPEC",
+"name": "Routine-laboratory NeoSpectra NIR library (Brazil)",
+"scale": "Sub-national",
+"countries": [
+"Brazil"
+],
+"continent": "South America",
+"spectral": "NIR (combination band region)",
+"spectral_tags": [
+"NIR"
+],
+"samples": 9000,
+"size_text": "9000+ (row 86)",
+"availability": "Restricted (commercial lab-built library)",
+"intro_in_review": true,
+"intro_ref": "Fonseca et al. 2026",
+"intro_row": 86,
+"papers": [
+86
+],
+"notes": null,
+"point": [
+-53.117,
+-10.84
+],
+"point_source": "country centroid"
+},
+{
+"id": "BR-PI",
+"name": "Soil spectral library of Piauí State",
+"scale": "Sub-national",
+"countries": [
+"Brazil"
+],
+"continent": "South America",
+"spectral": null,
+"spectral_tags": [
+"Not recorded"
+],
+"samples": 262,
+"size_text": "262 (row 49)",
+"availability": null,
+"intro_in_review": true,
+"intro_ref": "Mendes et al. 2021",
+"intro_row": 49,
+"papers": [
+49
+],
+"notes": null,
+"point": [
+-42.8,
+-7.5
+],
+"point_source": "study region"
+},
+{
+"id": "BR-RS",
+"name": "Southern Brazil regional legacy soil spectral dataset",
+"scale": "Sub-national",
+"countries": [
+"Brazil"
+],
+"continent": "South America",
+"spectral": "vis-NIR-SWIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 1534,
+"size_text": "1534 (row 24)",
+"availability": "Restricted (regional Piauí SSL; related to BSSL national effort)",
+"intro_in_review": true,
+"intro_ref": "Silva et al. 2019",
+"intro_row": 24,
+"papers": [
+24
+],
+"notes": "May overlap with BR-SUBTROP (same research group) – check",
+"point": [
+-53.5,
+-29.5
+],
+"point_source": "study region"
+},
+{
+"id": "BR-SUBTROP",
+"name": "Subtropical soil spectral library (southern Brazil)",
+"scale": "Sub-national",
+"countries": [
+"Brazil"
+],
+"continent": "South America",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 1966,
+"size_text": "1966 (row 38)",
+"availability": "Restricted (subtropical southern Brazil SSL)",
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+38
+],
+"notes": null,
+"point": [
+-51.5,
+-27.5
+],
+"point_source": "study region"
+},
+{
+"id": "CA-CPSSL",
+"name": "Canadian Prairie Soil Spectral Library (CPSSL)",
+"scale": "Sub-national",
+"countries": [
+"Canada"
+],
+"continent": "North America",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 8396,
+"size_text": "8396 spectra (row 114)",
+"availability": "Public resource hosted by Agriculture and Agri-Food Canada",
+"intro_in_review": true,
+"intro_ref": "AAFC CPSSL web resource",
+"intro_row": 114,
+"papers": [
+114
+],
+"notes": "Online resource; no peer-reviewed paper",
+"point": [
+-106.0,
+51.5
+],
+"point_source": "study region"
+},
+{
+"id": "CN-HB",
+"name": "Hebei soil spectral library (HSSL)",
+"scale": "Sub-national",
+"countries": [
+"China"
+],
+"continent": "Asia",
+"spectral": "NIR",
+"spectral_tags": [
+"NIR"
+],
+"samples": 440,
+"size_text": "440 (row 67)",
+"availability": "Restricted (regional HSSL)",
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+67
+],
+"notes": null,
+"point": [
+115.5,
+38.9
+],
+"point_source": "study region"
+},
+{
+"id": "CN-LR",
+"name": "Lateritic red soil spectral library (LRSSL)",
+"scale": "Sub-national",
+"countries": [
+"China"
+],
+"continent": "Asia",
+"spectral": null,
+"spectral_tags": [
+"Not recorded"
+],
+"samples": 742,
+"size_text": "742 (row 82)",
+"availability": null,
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+82
+],
+"notes": null,
+"point": [
+103.797,
+36.617
+],
+"point_source": "country centroid"
+},
+{
+"id": "CN-WH",
+"name": "Wuhan urban soil spectral library",
+"scale": "Sub-national",
+"countries": [
+"China"
+],
+"continent": "Asia",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 3492,
+"size_text": "3492 (row 56)",
+"availability": "Restricted (Wuhan urban SSL)",
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+56
+],
+"notes": null,
+"point": [
+114.3,
+30.6
+],
+"point_source": "study region"
+},
+{
+"id": "CN-ZJ",
+"name": "Zhejiang provincial SSL (ZSSL)",
+"scale": "Sub-national",
+"countries": [
+"China"
+],
+"continent": "Asia",
+"spectral": null,
+"spectral_tags": [
+"Not recorded"
+],
+"samples": 2069,
+"size_text": "2069 (row 41)",
+"availability": null,
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+41
+],
+"notes": null,
+"point": [
+120.2,
+29.2
+],
+"point_source": "study region"
+},
+{
+"id": "IN-PRISMA",
+"name": "Laboratory-synthesised cropland SSL (India)",
+"scale": "Sub-national",
+"countries": [
+"India"
+],
+"continent": "Asia",
+"spectral": "vis-NIR-SWIR (laboratory SSL + PRISMA imagery)",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": null,
+"size_text": null,
+"availability": "Restricted (study dataset); PRISMA products (c)ASI",
+"intro_in_review": true,
+"intro_ref": "Reddy & Shwetha 2024",
+"intro_row": 2,
+"papers": [
+2
+],
+"notes": null,
+"point": [
+79.585,
+22.909
+],
+"point_source": "country centroid"
+},
+{
+"id": "IN-RAJ",
+"name": "Western Rajasthan vis-NIR-SWIR library",
+"scale": "Sub-national",
+"countries": [
+"India"
+],
+"continent": "Asia",
+"spectral": "vis-NIR-SWIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 138,
+"size_text": "138 (row 18)",
+"availability": "Restricted (regional Indian arid-zone SSL)",
+"intro_in_review": true,
+"intro_ref": "Santra et al. 2015",
+"intro_row": 18,
+"papers": [
+18
+],
+"notes": null,
+"point": [
+72.5,
+27.0
+],
+"point_source": "study region"
+},
+{
+"id": "IT-CAL",
+"name": "Calabria forest soil vis-NIR dataset",
+"scale": "Sub-national",
+"countries": [
+"Italy"
+],
+"continent": "Europe",
+"spectral": "vis-NIR",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 267,
+"size_text": "267 (row 50)",
+"availability": "Restricted (regional Calabria forest SSL)",
+"intro_in_review": true,
+"intro_ref": "Conforti et al. 2018",
+"intro_row": 50,
+"papers": [
+50
+],
+"notes": "Presented as a calibration study rather than a library – borderline",
+"point": [
+16.3,
+39.0
+],
+"point_source": "study region"
+},
+{
+"id": "JP-FTIR",
+"name": "Japanese soil FTIR dataset (4 prefectures)",
+"scale": "Sub-national",
+"countries": [
+"Japan"
+],
+"continent": "Asia",
+"spectral": "MIR (mid-infrared) FTIR",
+"spectral_tags": [
+"MIR"
+],
+"samples": null,
+"size_text": null,
+"availability": "Open Access (CC BY); supplementary materials published with the article",
+"intro_in_review": true,
+"intro_ref": "He et al. 2025",
+"intro_row": 108,
+"papers": [
+108
+],
+"notes": "Borderline: multi-prefecture dataset, not named as a library by the authors",
+"point": [
+135.5,
+34.8
+],
+"point_source": "study region"
+},
+{
+"id": "KR-GSSL",
+"name": "Gyeonggi Soil Spectral Library (G-SSL)",
+"scale": "Sub-national",
+"countries": [
+"South Korea"
+],
+"continent": "Asia",
+"spectral": "NIR",
+"spectral_tags": [
+"NIR"
+],
+"samples": 1500,
+"size_text": "1500 (row 23)",
+"availability": "Open (published dataset, Scientific Data journal)",
+"intro_in_review": true,
+"intro_ref": "Bae et al. 2026",
+"intro_row": 23,
+"papers": [
+23
+],
+"notes": null,
+"point": [
+127.2,
+37.4
+],
+"point_source": "study region"
+},
+{
+"id": "MA-MSSL",
+"name": "Moroccan Soil Spectral Library (MSSL)",
+"scale": "Sub-national",
+"countries": [
+"Morocco"
+],
+"continent": "Africa",
+"spectral": "vis-NIR (implied; not explicitly confirmed)",
+"spectral_tags": [
+"vis-NIR"
+],
+"samples": 599,
+"size_text": "599 (row 72)",
+"availability": "Restricted (MSSL)",
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+72
+],
+"notes": null,
+"point": [
+-8.456,
+29.837
+],
+"point_source": "country centroid"
+},
+{
+"id": "MZ-LNP",
+"name": "Limpopo National Park NIR library",
+"scale": "Sub-national",
+"countries": [
+"Mozambique"
+],
+"continent": "Africa",
+"spectral": "NIR",
+"spectral_tags": [
+"NIR"
+],
+"samples": 129,
+"size_text": "129 (row 15)",
+"availability": "Restricted (regional LNP SSL)",
+"intro_in_review": true,
+"intro_ref": "Cambule et al. 2012",
+"intro_row": 15,
+"papers": [
+15
+],
+"notes": null,
+"point": [
+32.0,
+-23.5
+],
+"point_source": "study region"
+},
+{
+"id": "NZ-OTAGO",
+"name": "Otago & Southland regional SSL",
+"scale": "Sub-national",
+"countries": [
+"New Zealand"
+],
+"continent": "Oceania",
+"spectral": null,
+"spectral_tags": [
+"Not recorded"
+],
+"samples": 625,
+"size_text": "625 (row 75)",
+"availability": null,
+"intro_in_review": false,
+"intro_ref": null,
+"intro_row": null,
+"papers": [
+75
+],
+"notes": null,
+"point": [
+169.5,
+-45.5
+],
+"point_source": "study region"
+},
+{
+"id": "US-HI",
+"name": "Hawaiʻi soil health MIR library",
+"scale": "Sub-national",
+"countries": [
+"United States"
+],
+"continent": "Oceania",
+"spectral": null,
+"spectral_tags": [
+"MIR"
+],
+"samples": 655,
+"size_text": "655 (row 77)",
+"availability": null,
+"intro_in_review": true,
+"intro_ref": "Beckstrom et al. 2025",
+"intro_row": 77,
+"papers": [
+77
+],
+"notes": null,
+"point": [
+-157.5,
+20.8
+],
+"point_source": "study region"
+},
+{
+"id": "ZA-WHV",
+"name": "Western Highveld MIR library (South Africa)",
+"scale": "Sub-national",
+"countries": [
+"South Africa"
+],
+"continent": "Africa",
+"spectral": "MIR",
+"spectral_tags": [
+"MIR"
+],
+"samples": 979,
+"size_text": "979 (row 89)",
+"availability": "Restricted (regional South African SSL)",
+"intro_in_review": true,
+"intro_ref": "Kock et al. 2024",
+"intro_row": 89,
+"papers": [
+89
+],
+"notes": null,
+"point": [
+26.5,
+-26.5
+],
+"point_source": "study region"
+}
+]

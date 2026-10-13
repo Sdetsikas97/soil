@@ -1,0 +1,1870 @@
+[
+{
+"row": 2,
+"ref": "Reddy & Shwetha 2024",
+"authors": "Reddy B.S.; Shwetha H.R.",
+"title": "Integrating Soil Spectral Library and PRISMA Data to Estimate Soil Organic Carbon in Crop Lands",
+"year": "2024",
+"doi": "10.1109/LGRS.2024.3374824",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"IN-PRISMA"
+],
+"note": null,
+"samples": null,
+"spectral": "vis-NIR-SWIR (laboratory SSL + PRISMA imagery)",
+"country_text": null
+},
+{
+"row": 3,
+"ref": "Clingensmith & Grunwald 2025",
+"authors": "Clingensmith C.M.; Grunwald S.",
+"title": "Transferring and Spiking of VNIR Models for Soil Property Predictions in Southern India",
+"year": "2025",
+"doi": "10.1080/00103624.2025.2522188",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"US-KSSL-VNIR"
+],
+"note": "Assumed KSSL vis-NIR models transferred to India – check",
+"samples": null,
+"spectral": null,
+"country_text": "Southern India"
+},
+{
+"row": 4,
+"ref": "Clairotte et al. 2016",
+"authors": "Clairotte M.; Grinand C.; Kouakoua E.; Thébault A.; Saby N.P.A.; Bernoux M.; Barthès B.G.",
+"title": "National calibration of soil organic carbon concentration using diffuse infrared reflectance spectroscopy",
+"year": "2016",
+"doi": "10.1016/j.geoderma.2016.04.021",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"FR-RMQS-IR"
+],
+"note": null,
+"samples": null,
+"spectral": null,
+"country_text": "France"
+},
+{
+"row": 5,
+"ref": "Paiva et al. 2022",
+"authors": "Paiva A.F.D.S.; Poppiel R.R.; Rosin N.A.; Greschuk L.T.; Rosas J.T.F.; Demattê J.A.M.",
+"title": "The Brazilian Program of soil analysis via spectroscopy (ProBASE): Combining spectroscopy and wet laboratories to understand new technologies",
+"year": "2022",
+"doi": "10.1016/j.geoderma.2022.115905",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"BR-BSSL"
+],
+"note": null,
+"samples": "~7000",
+"spectral": null,
+"country_text": "Brazil"
+},
+{
+"row": 6,
+"ref": "Poppiel et al. 2022",
+"authors": "Poppiel R.R.; Paiva A.F.D.S.; Demattê J.A.M.",
+"title": "Bridging the gap between soil spectroscopy and traditional laboratory: Insights for routine implementation",
+"year": "2022",
+"doi": "10.1016/j.geoderma.2022.116029",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"BR-BSSL"
+],
+"note": null,
+"samples": "~7200",
+"spectral": "vis-NIR-SWIR (BSSL-based)",
+"country_text": "Brazil"
+},
+{
+"row": 7,
+"ref": "Leenen et al. 2022",
+"authors": "Leenen M.; Pätzold S.; Tóth G.; Welp G.",
+"title": "A LUCAS-based mid-infrared soil spectral library: Its usefulness for soil survey and precision agriculture",
+"year": "2022",
+"doi": "10.1002/jpln.202100031",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"EU-LUCAS-MIR4"
+],
+"note": null,
+"samples": "1013",
+"spectral": "MIR (mid-infrared)",
+"country_text": "Belgium, Luxembourg, Germany, Netherlands"
+},
+{
+"row": 8,
+"ref": "Gao et al. 2026",
+"authors": "Gao S.; Li X.; Ding J.; Li B.; Wu X.; Tian J.; Ge X.; Zhu C.; Wang J.; Zhang Z.",
+"title": "Unveiling the Advantages of UV−Vis/NIR−pXRF Data Fusion for Precise Estimation of Soil Heavy Metals in Farmland",
+"year": "2026",
+"doi": "10.1002/ldr.70488",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Local study (110 samples), no library",
+"samples": "110",
+"spectral": null,
+"country_text": "Xinjiang, China"
+},
+{
+"row": 9,
+"ref": "Ma et al. 2023",
+"authors": "Ma Y.; Roudier P.; Kumar K.; Palmada T.; Grealish G.; Carrick S.; Lilburne L.; Triantafilis J.",
+"title": "A soil spectral library of New Zealand",
+"year": "2023",
+"doi": "10.1016/j.geodrs.2023.e00726",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"NZ-SSL"
+],
+"note": null,
+"samples": "11246",
+"spectral": "vis-NIR and MIR",
+"country_text": "New Zealand"
+},
+{
+"row": 10,
+"ref": "Moloney et al. 2024",
+"authors": "Moloney J.P.; Ma Y.; Stockmann U.; Manu V.T.; Minoneti V.; Hui S.T.; Halavatau S.M.; Patolo S.; Tukia T.; Foliaki S.; Carter T.; Macdonald B.C.T.; Barringer J.; Roudier P.",
+"title": "Rapid soil attribute evaluation for soil security assessments in data-poor environments in the Pacific region",
+"year": "2024",
+"doi": "10.1016/j.soisec.2024.100161",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"NZ-SSL"
+],
+"note": null,
+"samples": "11246",
+"spectral": null,
+"country_text": "Tonga, New Zealand"
+},
+{
+"row": 11,
+"ref": "Nocita et al. 2011",
+"authors": "Nocita M.; Kooistra L.; Bachmann M.; Müller A.; Powell M.; Weel S.",
+"title": "Predictions of soil surface and topsoil organic carbon content through the use of laboratory and field spectroscopy in the Albany Thicket Biome of Eastern Cape Province of South Africa",
+"year": "2011",
+"doi": "10.1016/j.geoderma.2011.09.018",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Local calibration study (113 samples), no library",
+"samples": "113",
+"spectral": null,
+"country_text": "Albany Thicket Biome, South Africa"
+},
+{
+"row": 12,
+"ref": "Francos & Ben-Dor 2022",
+"authors": "Francos N.; Ben-Dor E.",
+"title": "A transfer function to predict soil surface reflectance from laboratory soil spectral libraries",
+"year": "2022",
+"doi": "10.1016/j.geoderma.2021.115432",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Transfer-function method; own 115 samples, no identifiable library",
+"samples": "115",
+"spectral": "vis-NIR-SWIR",
+"country_text": "Israel, Italy, Greece"
+},
+{
+"row": 13,
+"ref": "Daempfling et al. 2025",
+"authors": "Daempfling H.L.C.; Milewski R.; Notesco G.; Ben-Dor E.; Chabrillat S.",
+"title": "Advancing Hyperspectral LWIR Imaging of Soils with a Controlled Laboratory Setup",
+"year": "2025",
+"doi": "10.3390/rs17233926",
+"decision": "Include",
+"role": "Methods for",
+"libraries": [
+"IL-TAU"
+],
+"note": "Uses 12 samples from the TAU legacy library for LWIR imaging",
+"samples": "12",
+"spectral": "LWIR (longwave/thermal infrared)",
+"country_text": "Israel"
+},
+{
+"row": 14,
+"ref": "Bartholomeus et al. 2012",
+"authors": "Bartholomeus H.; Schaepman-Strub G.; Blok D.; Sofronov R.; Udaltsov S.",
+"title": "Spectral estimation of soil properties in siberian tundra soils and relations with plant species composition",
+"year": "2012",
+"doi": "10.1155/2012/241535",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Local tundra study (128 samples), no library",
+"samples": "128",
+"spectral": null,
+"country_text": "Siberia, Russia"
+},
+{
+"row": 15,
+"ref": "Cambule et al. 2012",
+"authors": "Cambule A.H.; Rossiter D.G.; Stoorvogel J.J.; Smaling E.M.A.",
+"title": "Building a near infrared spectral library for soil organic carbon estimation in the Limpopo National Park, Mozambique",
+"year": "2012",
+"doi": "10.1016/j.geoderma.2012.03.011",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"MZ-LNP"
+],
+"note": null,
+"samples": "129",
+"spectral": "NIR",
+"country_text": "Mozambique"
+},
+{
+"row": 16,
+"ref": "Safanelli et al. 2025",
+"authors": "Safanelli J.L.; Hengl T.; Parente L.L.; Minarik R.; Bloom D.E.; Todd-Brown K.; Gholizadeh A.; de Sousa Mendes W.; Sanderman J.",
+"title": "Open Soil Spectral Library (OSSL): Building reproducible soil calibration models through open development and community engagement",
+"year": "2025",
+"doi": "10.1371/journal.pone.0296545",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"GL-OSSL"
+],
+"note": null,
+"samples": "135651",
+"spectral": "VisNIR and MIR",
+"country_text": null
+},
+{
+"row": 17,
+"ref": "van Leeuwen et al. 2026",
+"authors": "van Leeuwen C.C.E.; Mulder V.L.; Heuvelink G.B.M.",
+"title": "The effect of modeller's choices and measurement errors on the performance of MIR soil spectroscopy models",
+"year": "2026",
+"doi": "10.1016/j.geoderma.2026.117804",
+"decision": "Include",
+"role": "Methods for",
+"libraries": [
+"US-KSSL-MIR",
+"EU-LUCAS-VNIR"
+],
+"note": "Library links taken from sheet (\"KSSL/LUCAS\") – check",
+"samples": "136",
+"spectral": null,
+"country_text": "Netherlands"
+},
+{
+"row": 18,
+"ref": "Santra et al. 2015",
+"authors": "Santra P.; Singh R.; Sarathjith M.C.; Panwar N.R.; Varghese P.; Das B.S.",
+"title": "Reflectance spectroscopic approach for estimation of soil properties in hot arid western Rajasthan, India",
+"year": "2015",
+"doi": "10.1007/s12665-015-4383-x",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"IN-RAJ"
+],
+"note": null,
+"samples": "138",
+"spectral": "vis-NIR-SWIR",
+"country_text": "Western Rajasthan, India"
+},
+{
+"row": 19,
+"ref": "Makhamreh et al. 2024",
+"authors": "Makhamreh Z.; Kakish S.; Bani K.H.",
+"title": "An Investigation of Soil Spectral Characteristics under Different Conditions in Jordan",
+"year": "2024",
+"doi": "10.52939/ijg.v20i6.3335",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Spectral characterisation study (143 samples), no library",
+"samples": "143",
+"spectral": "vis-NIR-SWIR",
+"country_text": "Jordan"
+},
+{
+"row": 20,
+"ref": "Gholizadeh et al. 2021",
+"authors": "Gholizadeh A.; Neumann C.; Chabrillat S.; van Wesemael B.; Castaldi F.; Borůvka L.; Sanderman J.; Klement A.; Hohmann C.",
+"title": "Soil organic carbon estimation using VNIR–SWIR spectroscopy: The effect of multiple sensors and scanning conditions",
+"year": "2021",
+"doi": "10.1016/j.still.2021.105017",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Sensor-comparison study (143 samples), no library",
+"samples": "143",
+"spectral": null,
+"country_text": "Czech Republic"
+},
+{
+"row": 21,
+"ref": "Clingensmith & Grunwald 2022",
+"authors": "Clingensmith C.M.; Grunwald S.",
+"title": "Predicting Soil Properties and Interpreting Vis-NIR Models from across Continental United States",
+"year": "2022",
+"doi": "10.3390/s22093187",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"US-KSSL-VNIR"
+],
+"note": null,
+"samples": "14574",
+"spectral": "vis-NIR",
+"country_text": "USA"
+},
+{
+"row": 22,
+"ref": "Brodský et al. 2011",
+"authors": "Brodský L.; Klement A.; Penížek V.; Kodešová R.; Boruvka L.",
+"title": "Building soil spectral library of the czech soils for quantitative digital soil mapping",
+"year": "2011",
+"doi": "10.17221/24/2011-swr",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"CZ-SSL"
+],
+"note": null,
+"samples": "150",
+"spectral": "vis-NIR",
+"country_text": "Czech Republic"
+},
+{
+"row": 23,
+"ref": "Bae et al. 2026",
+"authors": "Bae J.; Seo I.; Hyun J.; Park Y.; Jeong M.; Kim J.; et al.",
+"title": "A spatially rich, temporally coherent soil spectral dataset for soil organic carbon estimation",
+"year": "2026",
+"doi": "10.1038/s41597-026-06546-3",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"KR-GSSL"
+],
+"note": null,
+"samples": "1500",
+"spectral": "NIR",
+"country_text": "South Korea"
+},
+{
+"row": 24,
+"ref": "Silva et al. 2019",
+"authors": "Silva E.B.; Giasson É.; Dotto A.C.; Caten A.T.; Demattê J.A.M.; Bacic I.L.Z.; da Veiga M.",
+"title": "A regional legacy soil dataset for prediction of sand and clay content with VIS-NIR-SWIR, in southern Brazil",
+"year": "2019",
+"doi": "10.1590/18069657rbcs20180174",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"BR-RS"
+],
+"note": "Key Findings cell describes the Piauí library, not this paper – fix",
+"samples": "1534",
+"spectral": "vis-NIR-SWIR",
+"country_text": "Southern Brazil"
+},
+{
+"row": 25,
+"ref": "Shi et al. 2014",
+"authors": "Shi Z.; Wang Q.L.; Peng J.; Ji W.J.; Liu H.J.; Li X.; Viscarra Rossel R.A.",
+"title": "Development of a national VNIR soil-spectral library for soil classification and prediction of organic matter concentrations",
+"year": "2014",
+"doi": "10.1007/s11430-013-4808-x",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"CN-CSSL"
+],
+"note": null,
+"samples": "1581",
+"spectral": "vis-NIR",
+"country_text": "China"
+},
+{
+"row": 26,
+"ref": "Metzger et al. 2021",
+"authors": "Metzger K.; Zhang C.; Daly K.",
+"title": "From benchtop to handheld MIR for soil analysis: Predicting lime requirement and organic matter in agricultural soils",
+"year": "2021",
+"doi": "10.1016/j.biosystemseng.2021.01.025",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Benchtop vs handheld calibration (160 samples), not presented as a library",
+"samples": "160",
+"spectral": "MIR (DRIFTS)",
+"country_text": "Ireland"
+},
+{
+"row": 27,
+"ref": "Ng et al. 2020",
+"authors": "Ng W.; Husnain; Anggria L.; Siregar A.F.; Hartatik W.; Sulaeman Y.; Jones E.; Minasny B.",
+"title": "Developing a soil spectral library using a low-cost NIR spectrometer for precision fertilization in Indonesia",
+"year": "2020",
+"doi": "10.1016/j.geodrs.2020.e00319",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"ID-ISSL"
+],
+"note": null,
+"samples": "1601",
+"spectral": "NIR",
+"country_text": "Indonesia"
+},
+{
+"row": 28,
+"ref": "Novais et al. 2024",
+"authors": "Novais J.J.M.; Rosin N.A.; Rosas J.T.F.; Poppiel R.R.; Dotto A.C.; Paiva A.F.S.; Bellinaso H.; Albarracín H.S.R.; Amorim M.T.A.; dos Bartsch B.A.; Vogel L.G.; Mello D.C.; Francelino M.R.; Alves M.R.; Falcioni R.; Demattê J.A.M.",
+"title": "The Brazilian Soil Spectral Library data opening",
+"year": "2024",
+"doi": "10.19047/0136-1694-2024-119-261-305",
+"decision": "Include",
+"role": "Extends / updates",
+"libraries": [
+"BR-BSSL"
+],
+"note": null,
+"samples": "16084",
+"spectral": null,
+"country_text": "Brazil"
+},
+{
+"row": 29,
+"ref": "Rizzo et al. 2016",
+"authors": "Rizzo R.; Demattê J.A.M.; Lepsch I.F.; Gallo B.C.; Fongaro C.T.",
+"title": "Digital soil mapping at local scale using a multi-depth Vis-NIR spectral library and terrain attributes",
+"year": "2016",
+"doi": "10.1016/j.geoderma.2016.03.019",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"BR-BSSL"
+],
+"note": "Regional Brazilian library assumed to be BSSL – check",
+"samples": "162",
+"spectral": "vis-NIR",
+"country_text": "Brazil"
+},
+{
+"row": 30,
+"ref": "Tziolas et al. 2020",
+"authors": "Tziolas N.; Tsakiridis N.; Ogen Y.; Kalopesa E.; Ben-Dor E.; Theocharis J.; Zalidis G.",
+"title": "An integrated methodology using open soil spectral libraries and Earth Observation data for soil organic carbon estimations in support of soil-related SDGs",
+"year": "2020",
+"doi": "10.1016/j.rse.2020.111793",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"MED-GEOCRADLE"
+],
+"note": null,
+"samples": "1627",
+"spectral": "VNIR-SWIR",
+"country_text": "Greece, Israel, Albania, Bulgaria, Serbia, Turkey, Cyprus, Egypt"
+},
+{
+"row": 31,
+"ref": "Tziolas et al. 2019",
+"authors": "Tziolas N.; Tsakiridis N.; Ben-Dor E.; Theocharis J.; Zalidis G.",
+"title": "A memory-based learning approach utilizing combined spectral sources and geographical proximity for improved VIS-NIR-SWIR soil properties estimation",
+"year": "2019",
+"doi": "10.1016/j.geoderma.2018.12.044",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"MED-GEOCRADLE"
+],
+"note": null,
+"samples": "1760",
+"spectral": "VIS-NIR-SWIR",
+"country_text": "Greece, Israel, Albania, Bulgaria, Serbia, Turkey, Cyprus, Egypt"
+},
+{
+"row": 32,
+"ref": "Summerauer et al. 2021",
+"authors": "Summerauer L.; Baumann P.; Ramirez-Lopez L.; Barthel M.; Bauters M.; Bukombe B.; Reichenbach M.; Boeckx P.; Kearsley E.; Van Oost K.; Vanlauwe B.; Chiragaga D.; Heri-Kazi A.B.; Moonen P.; Sila A.; Shepherd K.; Bazirake Mujinya B.; Van Ranst E.; Baert G.; Doetterl S.; Six J.",
+"title": "The central African soil spectral library: A new soil infrared repository and a geographical prediction analysis",
+"year": "2021",
+"doi": "10.5194/soil-7-693-2021",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"AF-CENTRAL"
+],
+"note": null,
+"samples": "1800",
+"spectral": "MIR",
+"country_text": "DRC, Rwanda, Uganda"
+},
+{
+"row": 33,
+"ref": "Cambou et al. 2024",
+"authors": "Cambou A.; Houssoukpèvi I.A.; Chevallier T.; Moulin P.; Rakotondrazafy N.M.; Fonkeng E.E.; Harmand J.-M.; Aholoukpè H.N.S.; Amadji G.L.; Tabi F.O.; Chapuis-Lardy L.; Barthès B.G.",
+"title": "Quantification of soil organic carbon in particle size fractions using a near-infrared spectral library in West Africa",
+"year": "2024",
+"doi": "10.1016/j.geoderma.2024.116818",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"AF-WEST"
+],
+"note": null,
+"samples": "181",
+"spectral": null,
+"country_text": "Benin, Burkina Faso, Congo, Togo, Cameroon"
+},
+{
+"row": 34,
+"ref": "Ng et al. 2022",
+"authors": "Ng W.; Minasny B.; Jones E.; McBratney A.",
+"title": "To spike or to localize? Strategies to improve the prediction of local soil properties using regional spectral library",
+"year": "2022",
+"doi": "10.1016/j.geoderma.2021.115501",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"AU-NSW"
+],
+"note": null,
+"samples": "1867",
+"spectral": null,
+"country_text": "New South Wales, Australia"
+},
+{
+"row": 35,
+"ref": "Rossel et al. 2008",
+"authors": "Rossel R.A.V.; Jeon Y.S.; Odeh I.O.A.; McBratney A.B.",
+"title": "Using a legacy soil sample to develop a mid-IR spectral library",
+"year": "2008",
+"doi": "10.1071/SR07099",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"AU-COTTON"
+],
+"note": null,
+"samples": "1878",
+"spectral": "MIR (mid-infrared)",
+"country_text": "Eastern regions, Australia"
+},
+{
+"row": 36,
+"ref": "Ward et al. 2020",
+"authors": "Ward K.J.; Chabrillat S.; Brell M.; Castaldi F.; Spengler D.; Foerster S.",
+"title": "Mapping soil organic carbon for airborne and simulated enmap imagery using the lucas soil database and a local plsr",
+"year": "2020",
+"doi": "10.3390/rs12203451",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"EU-LUCAS-VNIR"
+],
+"note": null,
+"samples": "190",
+"spectral": null,
+"country_text": "Germany"
+},
+{
+"row": 37,
+"ref": "Francos et al. 2023",
+"authors": "Francos N.; Heller-Pearlshtien D.; Dematte J.A.M.; Van Wesemael B.; Milewski R.; Chabrillat S.; Tziolas N.; Sanz Diaz A.; Yague Ballester M.J.; Gholizadeh A.; Ben-Dor E.",
+"title": "A Spectral Transfer Function to Harmonize Existing Soil Spectral Libraries Generated by Different Protocols",
+"year": "2023",
+"doi": "10.1155/2023/4155390",
+"decision": "Include",
+"role": "Methods for",
+"libraries": [
+"EU-LUCAS-VNIR",
+"BR-BSSL"
+],
+"note": null,
+"samples": "19036 (LUCAS) / 29363 (BSSL)",
+"spectral": "vis-NIR-SWIR",
+"country_text": null
+},
+{
+"row": 38,
+"ref": "Moura-Bueno et al. 2020",
+"authors": "Moura-Bueno J.M.; Dalmolin R.S.D.; Horst-Heinen T.Z.; ten Caten A.; Vasques G.M.; Dotto A.C.; Grunwald S.",
+"title": "When does stratification of a subtropical soil spectral library improve predictions of soil organic carbon content?",
+"year": "2020",
+"doi": "10.1016/j.scitotenv.2020.139895",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"BR-SUBTROP"
+],
+"note": null,
+"samples": "1966",
+"spectral": "vis-NIR",
+"country_text": "Southern states, Brazil"
+},
+{
+"row": 39,
+"ref": "Nocita et al. 2014",
+"authors": "Nocita M.; Stevens A.; Toth G.; Panagos P.; van Wesemael B.; Montanarella L.",
+"title": "Prediction of soil organic carbon content by diffuse reflectance spectroscopy using a local partial least square regression approach",
+"year": "2014",
+"doi": "10.1016/j.soilbio.2013.10.022",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"EU-LUCAS-VNIR"
+],
+"note": null,
+"samples": "19969",
+"spectral": "vis-NIR",
+"country_text": "Multiple European Countries"
+},
+{
+"row": 40,
+"ref": "Moloney et al. 2023",
+"authors": "Moloney J.P.; Malone B.P.; Karunaratne S.; Stockmann U.",
+"title": "Leveraging large soil spectral libraries for sensor-agnostic field condition predictions of several agronomically important soil properties",
+"year": "2023",
+"doi": "10.1016/j.geoderma.2023.116651",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"AU-VNIR"
+],
+"note": null,
+"samples": "200",
+"spectral": "vis-NIR",
+"country_text": "Australia"
+},
+{
+"row": 41,
+"ref": "Jia et al. 2023",
+"authors": "Jia S.; Hong C.; Li H.; Li Y.; Hu S.",
+"title": "Strategies and methods for predicting soil organic matter at the field scale based on the provincial near infrared spectral database",
+"year": "2023",
+"doi": "10.17221/133/2022-SWR",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"CN-ZJ"
+],
+"note": null,
+"samples": "2069",
+"spectral": null,
+"country_text": "Zhejiang Province, China"
+},
+{
+"row": 42,
+"ref": "Novais et al. 2025",
+"authors": "Novais J.J.M.; Melo B.M.D.; Neves Junior A.F.; Lima R.H.C.; de Souza R.E.; Melo V.F.; do Amaral E.F.; Tziolas N.; Demattê J.A.M.",
+"title": "Online analysis of Amazon's soils through reflectance spectroscopy and cloud computing can support policies and the sustainable development",
+"year": "2025",
+"doi": "10.1016/j.jenvman.2025.124155",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"BR-BRASPECS"
+],
+"note": null,
+"samples": "211",
+"spectral": null,
+"country_text": "Brazil"
+},
+{
+"row": 43,
+"ref": "Fohrafellner et al. 2026",
+"authors": "Fohrafellner J.; Lippl M.; Bajraktarevic A.; Baumgarten A.; Spiegel H.; Körner R.; Sandén T.",
+"title": "Austrian NIR soil spectral library for soil health assessments",
+"year": "2026",
+"doi": "10.5194/essd-18-219-2026",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"AT-NIR"
+],
+"note": null,
+"samples": "2129",
+"spectral": "NIR",
+"country_text": "Austria"
+},
+{
+"row": 44,
+"ref": "Turgut & Koca 2026",
+"authors": "Turgut Y.S.; Koca Y.K.",
+"title": "Predictive mapping of soil texture using vis–NIR spectroscopy and machine learning in semi-arid Eastern Mediterranean",
+"year": "2026",
+"doi": "10.1016/j.asr.2026.04.065",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Local texture-mapping study (214 samples), no library",
+"samples": "214",
+"spectral": null,
+"country_text": "Adana, Turkey"
+},
+{
+"row": 45,
+"ref": "Brosens et al. 2021",
+"authors": "Brosens L.; Robinet J.; Pelckmans I.; Ameijeiras-Mariño Y.; Govers G.; Opfergelt S.; Minella J.P.G.; Vanderborght J.",
+"title": "Have land use and land cover change affected soil thickness and weathering degree in a subtropical region in Southern Brazil? Insights from applied mid-infrared spectroscopy",
+"year": "2021",
+"doi": "10.1016/j.catena.2021.105698",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Two-catchment MIR study (229 samples), no library",
+"samples": "229",
+"spectral": "MIR (mid-infrared)",
+"country_text": "Southern Brazil"
+},
+{
+"row": 46,
+"ref": "Greenberg et al. 2022",
+"authors": "Greenberg I.; Seidel M.; Vohland M.; Ludwig B.",
+"title": "Performance of field-scale lab vs in situ visible/near- and midinfrared spectroscopy for estimation of soil properties",
+"year": "2022",
+"doi": "10.1111/ejss.13180",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Field-scale comparison, no library",
+"samples": "238",
+"spectral": null,
+"country_text": "Germany"
+},
+{
+"row": 47,
+"ref": "Kokaly et al. 2017",
+"authors": "Kokaly R.F.; Clark R.N.; Swayze G.A.; Livo K.E.; Hoefen T.M.; Pearson N.C.; Wise R.A.; Benzel W.M.; Lowers H.A.; Driscoll R.L.; Klein A.J.",
+"title": "USGS Spectral Library Version 7: U.S. Geological Survey Data Series",
+"year": "2017",
+"doi": "10.3133/ds1035",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "General-materials library (minerals, rocks, vegetation), not soil-specific",
+"samples": "2456",
+"spectral": "UV, VIS, NIR, SWIR, MIR, thermal/far-infrared",
+"country_text": "USA"
+},
+{
+"row": 48,
+"ref": "Cho et al. 2017",
+"authors": "Cho Y.; Sheridan A.H.; Sudduth K.A.; Veum K.S.",
+"title": "Comparison of field and laboratory VNIR spectroscopy for profile soil property estimation",
+"year": "2017",
+"doi": "10.13031/trans.12299",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Single-field profile study (Missouri), no library",
+"samples": "252",
+"spectral": "VNIR",
+"country_text": "Missouri, USA"
+},
+{
+"row": 49,
+"ref": "Mendes et al. 2021",
+"authors": "Mendes W.S.; Boechat C.L.; Gualberto A.V.S.; Barbosa R.S.; da Silva Y.J.A.B.; Saraiva P.C.; de Sena A.F.S.; Duarte L.S.L.",
+"title": "Soil spectral library of piauí state using machine learning for laboratory analysis in Northeastern Brazil",
+"year": "2021",
+"doi": "10.36783/18069657rbcs20200115",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"BR-PI"
+],
+"note": null,
+"samples": "262",
+"spectral": null,
+"country_text": "Piauí State, Brazil"
+},
+{
+"row": 50,
+"ref": "Conforti et al. 2018",
+"authors": "Conforti M.; Matteucci G.; Buttafuoco G.",
+"title": "Using laboratory Vis-NIR spectroscopy for monitoring some forest soil properties",
+"year": "2018",
+"doi": "10.1007/s11368-017-1766-5",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"IT-CAL"
+],
+"note": null,
+"samples": "267",
+"spectral": "vis-NIR",
+"country_text": "Calabria, Italy"
+},
+{
+"row": 51,
+"ref": "Shi et al. 2015",
+"authors": "Shi Z.; Ji W.; Viscarra Rossel R.A.; Chen S.; Zhou Y.",
+"title": "Prediction of soil organic matter using a spatially constrained local partial least squares regression and the Chinese vis-NIR spectral library",
+"year": "2015",
+"doi": "10.1111/ejss.12272",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"CN-CSSL"
+],
+"note": null,
+"samples": "2732",
+"spectral": "vis-NIR",
+"country_text": "China"
+},
+{
+"row": 52,
+"ref": "Shepherd & Walsh 2002",
+"authors": "Shepherd K.D.; Walsh M.G.",
+"title": "Development of reflectance spectral libraries for characterization of soil properties",
+"year": "2002",
+"doi": "10.2136/sssaj2002.9880",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"AF-ICRAF-ESA"
+],
+"note": null,
+"samples": "274 (South Africa) / 697 (Eastern Africa)",
+"spectral": "vis-NIR-SWIR",
+"country_text": "Eastern and Southern Africa"
+},
+{
+"row": 53,
+"ref": "Peng et al. 2013",
+"authors": "Peng Y.; Knadel M.; Gislum R.; Deng F.; Norgaard T.; De Jonge L.W.; Moldrup P.; Greve M.H.",
+"title": "Predicting soil organic carbon at field scale using a national soil spectral library",
+"year": "2013",
+"doi": "10.1255/jnirs.1053",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"DK-VNIR"
+],
+"note": null,
+"samples": "2851",
+"spectral": "vis-NIR",
+"country_text": "Denmark"
+},
+{
+"row": 54,
+"ref": "Meerdink et al. 2019",
+"authors": "Meerdink S.K.; Hook S.J.; Roberts D.A.; Abbott E.A.",
+"title": "The ECOSTRESS spectral library version 1.0",
+"year": "2019",
+"doi": "10.1016/j.rse.2019.05.015",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "General-materials library, not soil-specific",
+"samples": "3000",
+"spectral": "VIS/SWIR and TIR (thermal infrared)",
+"country_text": null
+},
+{
+"row": 55,
+"ref": "Romero et al. 2018",
+"authors": "Romero D.J.; Ben-Dor E.; Demattê J.A.M.; Souza A.B.E.; Vicente L.E.; Tavares T.R.; Martello M.; Strabeli T.F.; da Silva Barros P.P.; Fiorio P.R.; Gallo B.C.; Sato M.V.; Eitelwein M.T.",
+"title": "Internal soil standard method for the Brazilian soil spectral library: Performance and proximate analysis",
+"year": "2018",
+"doi": "10.1016/j.geoderma.2017.09.014",
+"decision": "Include",
+"role": "Methods for",
+"libraries": [
+"BR-BSSL"
+],
+"note": null,
+"samples": "30000",
+"spectral": "vis-NIR-SWIR",
+"country_text": "Brazil"
+},
+{
+"row": 56,
+"ref": "Hong et al. 2022",
+"authors": "Hong Y.; Chen Y.; Chen S.; Shen R.; Hu B.; Peng J.; Wang N.; Guo L.; Zhuo Z.; Yang Y.; Liu Y.; Mouazen A.M.; Shi Z.",
+"title": "Data mining of urban soil spectral library for estimating organic carbon",
+"year": "2022",
+"doi": "10.1016/j.geoderma.2022.116102",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"CN-WH"
+],
+"note": null,
+"samples": "3492",
+"spectral": "vis-NIR",
+"country_text": "Wuhan, China"
+},
+{
+"row": 57,
+"ref": "Li et al. 2026",
+"authors": "Li S.; Zhou Y.; Mouazen A.M.; Chen S.; Viscarra Rossel R.A.; Biswas A.; Ji W.; Shi Z.; Wang S.",
+"title": "Integrating soil spectral libraries with laboratory hyperspectral imaging for profile organic carbon prediction in paddy soils",
+"year": "2026",
+"doi": "10.1016/j.still.2025.107028",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"GL-ICRAF-VNIR"
+],
+"note": null,
+"samples": "3755",
+"spectral": null,
+"country_text": null
+},
+{
+"row": 58,
+"ref": "Demattê 2019",
+"authors": "Demattê J.A.M. et al.",
+"title": "The Brazilian Soil Spectral Library (BSSL): A general view, application and challenges",
+"year": "2019",
+"doi": "10.1016/j.geoderma.2019.05.043",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"BR-BSSL"
+],
+"note": null,
+"samples": "39284",
+"spectral": "VIS-NIR-SWIR",
+"country_text": "Brazil"
+},
+{
+"row": 59,
+"ref": "Ji et al. 2016",
+"authors": "Ji W.; Li S.; Chen S.; Shi Z.; Viscarra Rossel R.A.; Mouazen A.M.",
+"title": "Prediction of soil attributes using the Chinese soil spectral library and standardized spectra recorded at field conditions",
+"year": "2016",
+"doi": "10.1016/j.still.2015.06.004",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"CN-CSSL"
+],
+"note": null,
+"samples": "3993",
+"spectral": "vis-NIR",
+"country_text": "China"
+},
+{
+"row": 60,
+"ref": "Al-Rawabdeh et al. 2026",
+"authors": "Al-Rawabdeh A.; Alsaleh A.R.; Awawdeh M.",
+"title": "Spectroscopic Prediction of Soil Iron Oxides, Organic Carbon, and Calcium Using VIS-NIR and PLSR in Northern Jordan",
+"year": "2026",
+"doi": null,
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Local calibration study (40 samples), no library",
+"samples": "40",
+"spectral": null,
+"country_text": "Jordan"
+},
+{
+"row": 61,
+"ref": "Li et al. 2022",
+"authors": "Li H.; Li Y.; Yang M.; Chen S.; Shi Z.",
+"title": "Strategies for efficient estimation of soil organic content at the local scale based on a national spectral database",
+"year": "2022",
+"doi": "10.1002/ldr.4223",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"CN-CSSL"
+],
+"note": "Country field says Germany – likely an error",
+"samples": "4086",
+"spectral": null,
+"country_text": "Germany"
+},
+{
+"row": 62,
+"ref": "Yang et al. 2023",
+"authors": "Yang M.; Chen S.; Xu D.; Hong Y.; Li S.; Peng J.; Ji W.; Guo X.; Zhao X.; Shi Z.",
+"title": "Strategies for predicting soil organic matter in the field using the Chinese Vis-NIR soil spectral library",
+"year": "2023",
+"doi": "10.1016/j.geoderma.2023.116461",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"CN-CSSL"
+],
+"note": null,
+"samples": "4086",
+"spectral": null,
+"country_text": "Jiangxi Province, China"
+},
+{
+"row": 63,
+"ref": "Metzger et al. 2020",
+"authors": "Metzger K.; Zhang C.; Ward M.; Daly K.",
+"title": "Mid-infrared spectroscopy as an alternative to laboratory extraction for the determination of lime requirement in tillage soils",
+"year": "2020",
+"doi": "10.1016/j.geoderma.2020.114171",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Lime-requirement calibration (41 samples), no library",
+"samples": "41",
+"spectral": "MIR (DRIFTS)",
+"country_text": "Ireland"
+},
+{
+"row": 64,
+"ref": "Mendes et al. 2022",
+"authors": "Mendes W.D.S.; Demattê J.A.M.; Rosin N.A.; Terra F.D.S.; Poppiel R.R.; Urbina-Salazar D.F.; Boechat C.L.; Silva E.B.; Curi N.; Silva S.H.G.; José dos Santos U.; Souza Valladares G.",
+"title": "The Brazilian soil Mid-infrared Spectral Library: The Power of the Fundamental Range",
+"year": "2022",
+"doi": "10.1016/j.geoderma.2022.115776",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"BR-BSSL-MIR"
+],
+"note": null,
+"samples": "4309 (MIR)",
+"spectral": null,
+"country_text": "Brazil"
+},
+{
+"row": 65,
+"ref": "Baumann et al. 2021",
+"authors": "Baumann P.; Helfenstein A.; Gubler A.; Keller A.; Meuli R.G.; Wächter D.; Lee J.; Viscarra Rossel R.; Six J.",
+"title": "Developing the Swiss mid-infrared soil spectral library for local estimation and monitoring",
+"year": "2021",
+"doi": "10.5194/soil-7-525-2021",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"CH-MIR"
+],
+"note": null,
+"samples": "4374",
+"spectral": "MIR",
+"country_text": "Switzerland"
+},
+{
+"row": 66,
+"ref": "Helfenstein et al. 2021",
+"authors": "Helfenstein A.; Baumann P.; Viscarra Rossel R.; Gubler A.; Oechslin S.; Six J.",
+"title": "Quantifying soil carbon in temperate peatlands using a mid-IR soil spectral library",
+"year": "2021",
+"doi": "10.5194/soil-7-193-2021",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"CH-MIR"
+],
+"note": null,
+"samples": "4374",
+"spectral": "MIR",
+"country_text": "Switzerland"
+},
+{
+"row": 67,
+"ref": "Miao et al. 2024",
+"authors": "Miao T.; Ji W.; Li B.; Zhu X.; Yin J.; Yang J.; Huang Y.; Cao Y.; Yao D.; Kong X.",
+"title": "Advanced Soil Organic Matter Prediction with a Regional Soil NIR Spectral Library Using Long Short-Term Memory–Convolutional Neural Networks: A Case Study",
+"year": "2024",
+"doi": "10.3390/rs16071256",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"CN-HB"
+],
+"note": null,
+"samples": "440",
+"spectral": "NIR",
+"country_text": "China"
+},
+{
+"row": 68,
+"ref": "Aitkenhead & Black 2018",
+"authors": "Aitkenhead M.J.; Black H.I.J.",
+"title": "Exploring the Impact of Different Input Data Types on Soil Variable Estimation Using the ICRAF-ISRIC Global Soil Spectral Database",
+"year": "2018",
+"doi": "10.1177/0003702817739013",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"GL-ICRAF-VNIR"
+],
+"note": null,
+"samples": "4437",
+"spectral": "vis-NIR",
+"country_text": null
+},
+{
+"row": 69,
+"ref": "Demattê et al. 2022",
+"authors": "Demattê J.A.M.; Paiva A.F.D.S.; Poppiel R.R.; Rosin N.A.; Ruiz L.F.C.; Mello F.A.O.; Minasny B.; Grunwald S.; Ge Y.; Dor E.B.; Gholizadeh A.; Gomez C.; Chabrillat S.; Francos N.; Ayoubi S.; Fiantis D.; Biney J.K.M.; Wang C.; Belal A.; Naimi S.; Hafshejani N.A.; Bellinaso H.; Moura-bueno J.M.; Silvero N.E.Q.",
+"title": "The Brazilian Soil Spectral Service (BraSpecS): A User-Friendly System for Global Soil Spectra Communication",
+"year": "2022",
+"doi": "10.3390/rs14030740",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"BR-BRASPECS"
+],
+"note": null,
+"samples": "49753 (vis-NIR-SWIR) / 4951 (MIR)",
+"spectral": null,
+"country_text": null
+},
+{
+"row": 70,
+"ref": "Mészáros et al. 2025",
+"authors": "Mészáros J.; Kovács Z.; László P. et al.",
+"title": "Vis-NIR soil spectral library of the Hungarian Soil Degradation Observation System",
+"year": "2025",
+"doi": "10.1038/s41597-025-04667-9",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"HU-HSDOS"
+],
+"note": null,
+"samples": "5490",
+"spectral": "vis-NIR",
+"country_text": "Hungary"
+},
+{
+"row": 71,
+"ref": "Angelopoulou et al. 2023",
+"authors": "Angelopoulou T.; Chabrillat S.; Pignatti S.; Milewski R.; Karyotis K.; Brell M.; Ruhtz T.; Bochtis D.; Zalidis G.",
+"title": "Evaluation of Airborne HySpex and Spaceborne PRISMA Hyperspectral Remote Sensing Data for Soil Organic Matter and Carbonates Estimation",
+"year": "2023",
+"doi": "10.3390/rs15041106",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Single-site hyperspectral comparison (55 samples), no library",
+"samples": "55",
+"spectral": "vis-NIR-SWIR (laboratory, airborne HySpex, spaceborne PRISMA)",
+"country_text": "Greece"
+},
+{
+"row": 72,
+"ref": "Asrat et al. 2024",
+"authors": "Asrat T.G.; Breure T.; Sakrabani R.; Corstanje R.; Hassall K.L.; Hamma A.; Kebede F.; Haefele S.M.",
+"title": "A Moroccan soil spectral library use framework for improving soil property prediction: Evaluating a geostatistical approach",
+"year": "2024",
+"doi": "10.1016/j.geoderma.2024.117116",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"MA-MSSL"
+],
+"note": null,
+"samples": "599",
+"spectral": "vis-NIR (implied; not explicitly confirmed)",
+"country_text": "Morocco"
+},
+{
+"row": 73,
+"ref": "Retta et al. 2025",
+"authors": "Retta A.N.; Kebede F.; Haile M.; Gebresamuel G.; Zenebe A.; Girmay G.",
+"title": "Assessing the spatial variability of soil properties in the semiarid areas of Hintalo Wejerat District, Tigray region, Ethiopia",
+"year": "2025",
+"doi": "10.1007/s43621-025-01006-1",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Not spectroscopy (wet chemistry + geostatistics)",
+"samples": "60",
+"spectral": "Not applicable - this study uses conventional wet-chemistry/geostatistics, not spectroscopy",
+"country_text": "Ethiopia"
+},
+{
+"row": 74,
+"ref": "Yang & Li 2013",
+"authors": "Yang H.; Li J.",
+"title": "Predictions of soil organic carbon using laboratory-based hyperspectral data in the northern Tianshan mountains, China",
+"year": "2013",
+"doi": "10.1007/s10661-012-2838-z",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Local calibration study (60 samples), no library",
+"samples": "60",
+"spectral": null,
+"country_text": "Xinjiang, China"
+},
+{
+"row": 75,
+"ref": "Shrestha et al. 2026",
+"authors": "Shrestha G.; Calvelo-Pereira R.; Roudier P.; Kereszturi G.; Jeyakumar P.; Martin A.P.; Turnbull R.E.; Anderson C.W.N.",
+"title": "Rapid analysis of farm-scale soil cadmium concentrations using a regional soil spectral library",
+"year": "2026",
+"doi": "10.1016/j.geodrs.2026.e01063",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"NZ-OTAGO"
+],
+"note": null,
+"samples": "625",
+"spectral": null,
+"country_text": "Otago and Southland, New Zealand"
+},
+{
+"row": 76,
+"ref": "Omondiagbe et al. 2024",
+"authors": "Omondiagbe O.P.; Roudier P.; Lilburne L.; Ma Y.; McNeill S.",
+"title": "Quantifying uncertainty in the prediction of soil properties using mid-infrared spectra",
+"year": "2024",
+"doi": "10.1016/j.geoderma.2024.116954",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"NZ-SSL"
+],
+"note": null,
+"samples": "6468",
+"spectral": null,
+"country_text": "New Zealand"
+},
+{
+"row": 77,
+"ref": "Beckstrom et al. 2025",
+"authors": "Beckstrom T.B.; Bunnell A.; Maaz T.M.; Kantar M.B.; Deenik J.L.; Tallamy Glazer C.; Sadowski P.; Crow S.E.",
+"title": "Mid-infrared spectroscopy and machine learning improve accessibility of Hawaiʻi soil health assessment",
+"year": "2025",
+"doi": "10.1002/saj2.70081",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"US-HI"
+],
+"note": null,
+"samples": "655",
+"spectral": null,
+"country_text": "Hawaiʻi, USA"
+},
+{
+"row": 78,
+"ref": "Ben Dor et al. 2024",
+"authors": "Ben Dor E.; Efrati B.; Amir O.; Francos N.; Shepherd J.; Khosravi V.; Gholizadeh A.; Klement A.; Borůvka L.",
+"title": "A standard and protocol for in-situ measurement of surface soil reflectance",
+"year": "2024",
+"doi": "10.1016/j.geoderma.2024.116920",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Standard/protocol paper (7 samples), no library",
+"samples": "7",
+"spectral": "vis-NIR-SWIR",
+"country_text": "Israel, Australia, Czech Republic"
+},
+{
+"row": 79,
+"ref": "Safanelli et al. 2023",
+"authors": "Safanelli J.L.; Sanderman J.; Bloom D.; Todd-Brown K.; Parente L.L.; Hengl T.; et al.",
+"title": "An interlaboratory comparison of mid-infrared spectra acquisition: Instruments and procedures matter",
+"year": "2023",
+"doi": "10.1016/j.geoderma.2023.116724",
+"decision": "Include",
+"role": "Methods for",
+"libraries": [
+"US-KSSL-MIR"
+],
+"note": null,
+"samples": "70",
+"spectral": "MIR",
+"country_text": null
+},
+{
+"row": 80,
+"ref": "Chabrillat et al. 2019",
+"authors": "Chabrillat S.; Gholizadeh A.; Neumann C.; Berger D.; Milewski R.; Ogen Y.; Ben-Dor E.",
+"title": "Preparing a soil spectral library using the Internal Soil Standard (ISS) method: Influence of extreme different humidity laboratory conditions",
+"year": "2019",
+"doi": "10.1016/j.geoderma.2019.07.013",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Method study (71 samples), no identifiable library",
+"samples": "71",
+"spectral": null,
+"country_text": "Israel"
+},
+{
+"row": 81,
+"ref": "Gamagedara et al. 2024",
+"authors": "Gamagedara Y.; Wijewardane N.K.; Feng G.; Seybold C.; Williams M.; Tagert M.L.; Martins V.S.",
+"title": "Can we use a mid-infrared fine-ground soil spectral library to predict non-fine-ground spectra?",
+"year": "2024",
+"doi": "10.1016/j.geoderma.2024.116799",
+"decision": "Include",
+"role": "Methods for",
+"libraries": [
+"US-KSSL-MIR"
+],
+"note": null,
+"samples": "72224",
+"spectral": "MIR",
+"country_text": "USA"
+},
+{
+"row": 82,
+"ref": "Wang et al. 2024",
+"authors": "Wang Z.; Chen S.; Lu R.; Zhang X.; Ma Y.; Shi Z.",
+"title": "Non-linear memory-based learning for predicting soil properties using a regional vis-NIR spectral library",
+"year": "2024",
+"doi": "10.1016/j.geoderma.2023.116752",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"CN-LR"
+],
+"note": null,
+"samples": "742",
+"spectral": null,
+"country_text": "China"
+},
+{
+"row": 83,
+"ref": "Shepherd et al. 2022",
+"authors": "Shepherd K.D.; Ferguson R.; Hoover D.; van Egmond F.; Sanderman J.; Ge Y.",
+"title": "A global soil spectral calibration library and estimation service",
+"year": "2022",
+"doi": "10.1016/j.soisec.2022.100061",
+"decision": "Include",
+"role": "Extends / updates",
+"libraries": [
+"US-KSSL-MIR"
+],
+"note": null,
+"samples": "83876",
+"spectral": "MIR (mid-infrared)",
+"country_text": "USA"
+},
+{
+"row": 84,
+"ref": "Lamine et al. 2019",
+"authors": "Lamine S.; Petropoulos G.P.; Brewer P.A.; Bachari N.-E.-I.; Srivastava P.K.; Manevski K.; Kalaitzidis C.; Macklin M.G.",
+"title": "Heavy metal soil contamination detection using combined geochemistry and field spectroradiometry in the United Kingdom",
+"year": "2019",
+"doi": "10.3390/s19040762",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Single-floodplain contamination study (85 samples), no library",
+"samples": "85",
+"spectral": "vis-NIR-SWIR",
+"country_text": "UK"
+},
+{
+"row": 85,
+"ref": "Long et al. 2023",
+"authors": "Long M.; Yue T.; Xu Z.; Guo J.; Luo J.; Guo X.; Zhao X.",
+"title": "Improved Soil Organic Carbon Prediction in a Forest Area by Near-Infrared Spectroscopy: Spiking of a Soil Spectral Library",
+"year": "2023",
+"doi": "10.3390/f14010118",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"GL-ICRAF-VNIR"
+],
+"note": null,
+"samples": "89",
+"spectral": "NIR (vis-NIR)",
+"country_text": "China"
+},
+{
+"row": 86,
+"ref": "Fonseca et al. 2026",
+"authors": "Fonseca A.A.D.; Pasquini C.; Fonseca G.F.; Soares E.M.B.; Hespanhol M.C.",
+"title": "Building a spectral soil library in a soil routine analysis laboratory to determine soil organic carbon using compact near-infrared spectrophotometers: Performance of global and local models",
+"year": "2026",
+"doi": "10.1016/j.saa.2025.126707",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"BR-NEOSPEC"
+],
+"note": null,
+"samples": "9000+",
+"spectral": "NIR (combination band region)",
+"country_text": "Brazil"
+},
+{
+"row": 87,
+"ref": "Shepherd et al. 2025",
+"authors": "Shepherd J.E.; Kanner O.; Amir O.; Efrati B.; Ben-Dor E.",
+"title": "Long-term stability of soil spectral libraries with chemical and spectral insights",
+"year": "2025",
+"doi": "10.1038/s41598-025-93792-x",
+"decision": "Include",
+"role": "Methods for",
+"libraries": [
+"IL-TAU"
+],
+"note": "Assumed archived TAU library – check",
+"samples": "91",
+"spectral": null,
+"country_text": "Israel"
+},
+{
+"row": 88,
+"ref": "Erebara et al. 2025",
+"authors": "Erebara A.; Kopali A.; Shallari S.; Iorio E.D.; Manzo A.; Longobardi E.; Napoletano P.; Marco A.D.; Colombo C.",
+"title": "Pedological features affecting carbon accumulation in submerged-soils sequence assessed with Vis-NIR spectroscopy in a coastal wetland in Albania",
+"year": "2025",
+"doi": "10.1016/j.catena.2025.109187",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Local wetland study (94 samples), no library",
+"samples": "94",
+"spectral": null,
+"country_text": "Albania"
+},
+{
+"row": 89,
+"ref": "Kock et al. 2024",
+"authors": "Kock A.-L.; Ramphisa-Nghondzweni P.D.; Van Zijl G.",
+"title": "Development of soil spectroscopy models for the Western Highveld region, South Africa: Why do we need local data?",
+"year": "2024",
+"doi": "10.1111/ejss.70014",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"ZA-WHV",
+"GL-OSSL"
+],
+"note": null,
+"samples": "979",
+"spectral": "MIR",
+"country_text": "South Africa"
+},
+{
+"row": 90,
+"ref": "de Santana et al. 2023",
+"authors": "de Santana F.B.; Hall R.L.; Lowe V.; Browne M.A.; Grunsky E.C.; Fitzsimons M.M.; Gallagher V.; Daly K.",
+"title": "A systematic approach to predicting and mapping soil particle size distribution from unknown samples using large mid-infrared spectral libraries covering large-scale heterogeneous areas",
+"year": "2023",
+"doi": "10.1016/j.geoderma.2023.116491",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"IE-MOM"
+],
+"note": null,
+"samples": "9993",
+"spectral": "MIR (also NIR/XRF used in related work)",
+"country_text": "Ireland"
+},
+{
+"row": 91,
+"ref": "Dor et al. 2024",
+"authors": "Dor E.B.; Chabrillat S.; Karyotis K.; Schmid T.",
+"title": "P4005 Standards and Protocols for Soil Spectroscopy in Laboratory and Field Conditions [Technical Committees]",
+"year": "2024",
+"doi": "10.1109/MGRS.2024.3469069",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Standards committee (IEEE P4005), no library",
+"samples": null,
+"spectral": null,
+"country_text": null
+},
+{
+"row": 92,
+"ref": "Ben Dor et al. 2015",
+"authors": "Ben Dor E.; Ong C.; Lau I.C.",
+"title": "Reflectance measurements of soils in the laboratory: Standards and protocols",
+"year": "2015",
+"doi": "10.1016/j.geoderma.2015.01.002",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Standards/protocols paper, no library",
+"samples": null,
+"spectral": null,
+"country_text": "Israel, Australia"
+},
+{
+"row": 93,
+"ref": "Francos et al. 2021",
+"authors": "Francos N.; Ogen Y.; Ben-Dor E.",
+"title": "Spectral assessment of organic matter with different composition using reflectance spectroscopy",
+"year": "2021",
+"doi": "10.3390/rs13081549",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Organic-matter spectral study, no library",
+"samples": null,
+"spectral": null,
+"country_text": "Israel"
+},
+{
+"row": 94,
+"ref": "Hume et al. 2024",
+"authors": "Hume R.; Marschner P.; Mason S.; Schilling R.K.; Mosley L.M.",
+"title": "Using mid-infrared spectroscopy as a tool to monitor responses of acidic soil properties to liming: case study from a dryland agricultural soil trial site in South Australia",
+"year": "2024",
+"doi": "10.1007/s11119-024-10114-3",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Single liming-trial site, no library",
+"samples": null,
+"spectral": null,
+"country_text": "South Australia"
+},
+{
+"row": 95,
+"ref": "Viscarra Rossel et al. 2016",
+"authors": "Viscarra Rossel R.A.; Behrens T.; Ben-Dor E.; Brown D.J.; Demattê J.A.M.; Shepherd K.D.; Shi Z.; Stenberg B.; Stevens A.; Adamchuk V.; Aïchi H.; Barthès B.G.; Bartholomeus H.M.; Bayer A.D.; Bernoux M.; Böttcher K.; Brodský L.; Du C.W.; Chappell A.; Fouad Y.; Genot V.; Gomez C.; Grunwald S.; Gubler A.; Guerrero C.; Hedley C.B.; Knadel M.; Morrás H.J.M.; Nocita M.; Ramirez-Lopez L.; Roudier P.; Rufasto Campos E.M.; Sanborn P.; Sellitto V.M.; Sudduth K.A.; Rawlins B.G.; Walter C.; Winowiecki L.A.; Hong S.Y.; Ji W.",
+"title": "A global spectral library to characterize the world's soil",
+"year": "2016",
+"doi": "10.1016/j.earscirev.2016.01.012",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"GL-GSSL"
+],
+"note": null,
+"samples": "23631 spectra",
+"spectral": "vis-NIR",
+"country_text": "92 countries"
+},
+{
+"row": 96,
+"ref": "Brown et al. 2006",
+"authors": "Brown D.J.; Shepherd K.D.; Walsh M.G.; Mays M.D.; Reinsch T.G.",
+"title": "Global soil characterization with VNIR diffuse reflectance spectroscopy",
+"year": "2006",
+"doi": "10.1016/j.geoderma.2005.04.025",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"GL-BROWN"
+],
+"note": null,
+"samples": "4184 (3768 USA; 416 from outside the USA)",
+"spectral": "VNIR",
+"country_text": "USA (all 50 states) plus 36 further countries (37 total)"
+},
+{
+"row": 97,
+"ref": "Terhoeven-Urselmans et al. 2010",
+"authors": "Terhoeven-Urselmans T.; Vågen T.-G.; Spaargaren O.; Shepherd K.D.",
+"title": "Prediction of soil fertility properties from a globally distributed soil mid-infrared spectral library",
+"year": "2010",
+"doi": "10.2136/sssaj2009.0218",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"GL-ICRAF-MIR"
+],
+"note": null,
+"samples": "971",
+"spectral": "MIR (mid-infrared)",
+"country_text": "Globally distributed (ISRIC soil collection)"
+},
+{
+"row": 98,
+"ref": "Dangal et al. 2019",
+"authors": "Dangal S.R.S.; Sanderman J.; Wills S.; Ramirez-Lopez L.",
+"title": "Accurate and precise prediction of soil properties from a large mid-infrared spectral library",
+"year": "2019",
+"doi": "10.3390/soilsystems3010011",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"US-KSSL-MIR"
+],
+"note": null,
+"samples": ">50000",
+"spectral": "MIR (mid-infrared)",
+"country_text": "USA (continental)"
+},
+{
+"row": 99,
+"ref": "Viscarra Rossel & Webster 2012",
+"authors": "Viscarra Rossel R.A.; Webster R.",
+"title": "Predicting soil properties from the Australian soil visible-near infrared spectroscopic database",
+"year": "2012",
+"doi": "10.1111/j.1365-2389.2012.01495.x",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"AU-VNIR"
+],
+"note": null,
+"samples": "~20000 (archived samples)",
+"spectral": "vis-NIR",
+"country_text": "Australia"
+},
+{
+"row": 100,
+"ref": "Baldock et al. 2013",
+"authors": "Baldock J.A.; Hawke B.; Sanderman J.; Macdonald L.M.",
+"title": "Predicting contents of carbon and its component fractions in Australian soils from diffuse reflectance mid-infrared spectra",
+"year": "2013",
+"doi": "10.1071/SR13077",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"AU-SCARP"
+],
+"note": null,
+"samples": "20495 samples from 4526 locations",
+"spectral": "MIR (mid-infrared); spectra also covered part of the NIR region",
+"country_text": "Australia (agricultural regions; state-level projects in NSW, Qld, Vic, SA, Tas)"
+},
+{
+"row": 101,
+"ref": "Knadel et al. 2012",
+"authors": "Knadel M.; Deng F.; Thomsen A.; Greve M.H.",
+"title": "Development of a Danish national vis-NIR soil spectral library for soil organic carbon determination",
+"year": "2012",
+"doi": "10.1201/b12728-79",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"DK-VNIR"
+],
+"note": null,
+"samples": "2851",
+"spectral": "vis-NIR",
+"country_text": "Denmark"
+},
+{
+"row": 102,
+"ref": "Gogé et al. 2014",
+"authors": "Gogé F.; Gomez C.; Jolivet C.; Joffre R.",
+"title": "Which strategy is best to predict soil properties of a local site from a national Vis-NIR database?",
+"year": "2014",
+"doi": "10.1016/j.geoderma.2013.07.016",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"FR-RMQS-VNIR"
+],
+"note": null,
+"samples": null,
+"spectral": "vis-NIR",
+"country_text": "France"
+},
+{
+"row": 103,
+"ref": "Gholizadeh et al. 2021",
+"authors": "Gholizadeh A.; et al.",
+"title": "National-scale spectroscopic assessment of soil organic carbon in forests of the Czech Republic",
+"year": "2021",
+"doi": "10.1016/j.geoderma.2020.114832",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"CZ-FOREST"
+],
+"note": null,
+"samples": null,
+"spectral": "Not specified in available sources",
+"country_text": "Czech Republic"
+},
+{
+"row": 104,
+"ref": "Gomez et al. 2020",
+"authors": "Gomez C.; Chevallier T.; Moulin P.; Bouferra I.; Hmaidi K.; Arrouays D.; Jolivet C.; Barthès B.G.",
+"title": "Prediction of soil organic and inorganic carbon concentrations in Tunisian samples by mid-infrared reflectance spectroscopy using a French national library",
+"year": "2020",
+"doi": "10.1016/j.geoderma.2020.114469",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"FR-RMQS-IR"
+],
+"note": "French library applied to Tunisian samples; no Tunisian library",
+"samples": null,
+"spectral": "MIR (mid-infrared)",
+"country_text": "Tunisia (predicted using a French national library)"
+},
+{
+"row": 105,
+"ref": "Goydaragh et al. 2022",
+"authors": "Goydaragh M.G.; Taghizadeh-Mehrjardi R.; Jafarzadeh A.A.; Triantafilis J.; Lado M.",
+"title": "GLOBAL-LOCAL: A new approach for local predictions of soil organic carbon content using large soil spectral libraries",
+"year": "2022",
+"doi": "10.1016/j.geoderma.2022.116048",
+"decision": "Check",
+"role": "Methods for",
+"libraries": [],
+"note": "Libraries used are not identified in the sheet – check full text",
+"samples": null,
+"spectral": "Not specified in available sources",
+"country_text": "Iran-affiliated research group; large SSLs"
+},
+{
+"row": 106,
+"ref": "Singh & Kasana 2019",
+"authors": "Singh S.; Kasana S.S.",
+"title": "Estimation of soil properties from the EU spectral library using long short-term memory networks",
+"year": "2019",
+"doi": "10.1016/j.geodrs.2019.e00233",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"EU-LUCAS-VNIR"
+],
+"note": null,
+"samples": null,
+"spectral": "Not specified in available sources",
+"country_text": "European Union"
+},
+{
+"row": 107,
+"ref": "Sorenson et al. 2017",
+"authors": "Sorenson P.T.; Small C.; Tappert M.C.; Quideau S.A.; Drozdowski B.; Underwood A.; Janz A.",
+"title": "Monitoring organic carbon, total nitrogen, and pH for reclaimed soils using field reflectance spectroscopy",
+"year": "2017",
+"doi": "10.1139/cjss-2016-0116",
+"decision": "Exclude",
+"role": null,
+"libraries": [],
+"note": "Field reflectance monitoring of reclaimed sites, not a library",
+"samples": null,
+"spectral": "Field reflectance spectroscopy",
+"country_text": "Canada"
+},
+{
+"row": 108,
+"ref": "He et al. 2025",
+"authors": "He J.; Matsui T.; Tanaka T.S.T.",
+"title": "Predictive performance of mid-infrared FTIR spectroscopy and machine learning models for soil property estimation in Japan",
+"year": "2025",
+"doi": "10.1080/00380768.2025.2558584",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"JP-FTIR"
+],
+"note": null,
+"samples": null,
+"spectral": "MIR (mid-infrared) FTIR",
+"country_text": "Japan (samples from Gifu, Mie, Nara and Yamaguchi prefectures)"
+},
+{
+"row": 109,
+"ref": "Debaene 2019",
+"authors": "Debaene G.",
+"title": "Visible and near-infrared spectroscopy in Poland: from the beginning to the Polish Soil Spectral Library",
+"year": "2019",
+"doi": "10.26114/pja.iung.382.2019.37.01",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"PL-PSSL"
+],
+"note": null,
+"samples": null,
+"spectral": "vis-NIR",
+"country_text": "Poland (field example: Baborówko)"
+},
+{
+"row": 110,
+"ref": "MohammedZein et al. 2023",
+"authors": "MohammedZein M.A.; Csorba A.; Rotich B.; Justin P.N.; Melenya C.; Andrei Y.; Micheli E.",
+"title": "Development of Hungarian spectral library: Prediction of soil properties and applications",
+"year": "2023",
+"doi": "10.18393/ejss.1275149",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"HU-SIMS"
+],
+"note": null,
+"samples": "2200",
+"spectral": "MIR (mid-infrared)",
+"country_text": "Hungary (10 counties)"
+},
+{
+"row": 111,
+"ref": "MohammedZein et al. 2023",
+"authors": "MohammedZein M.A.; Csorba A.; Rotich B.; Justin P.N.; Mohamed H.T.; Micheli E.",
+"title": "Prediction of some selected soil properties using the Hungarian Mid-infrared spectral library",
+"year": "2023",
+"doi": "10.18393/ejss.1309753",
+"decision": "Include",
+"role": "Uses",
+"libraries": [
+"HU-SIMS"
+],
+"note": null,
+"samples": null,
+"spectral": "MIR (mid-infrared)",
+"country_text": "Hungary"
+},
+{
+"row": 112,
+"ref": "Hong et al. 2024",
+"authors": "Hong Y.; Sanderman J.; Hengl T.; Chen S.; Wang N.; Xue J.; Zhuo Z.; Peng J.; Chen Y.; Shi Z.",
+"title": "Potential of globally distributed topsoil mid-infrared spectral library for organic carbon estimation",
+"year": "2024",
+"doi": "10.1016/j.catena.2023.107628",
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"GL-TOPMIR"
+],
+"note": null,
+"samples": null,
+"spectral": "MIR (mid-infrared)",
+"country_text": "Globally distributed"
+},
+{
+"row": 113,
+"ref": "Shepherd & Walsh 2002",
+"authors": "Shepherd K.D.; Walsh M.G.",
+"title": "Development of reflectance spectral libraries for characterization of soil properties",
+"year": "2002",
+"doi": null,
+"decision": "Exclude (duplicate)",
+"role": "Introduces",
+"libraries": [
+"AF-ICRAF-ESA"
+],
+"note": "Duplicate of row 52",
+"samples": ">1000 archived topsoils",
+"spectral": "vis-NIR (diffuse reflectance)",
+"country_text": "Eastern and southern Africa"
+},
+{
+"row": 114,
+"ref": "AAFC CPSSL web resource",
+"authors": "Agriculture and Agri-Food Canada (Canadian Soil Information Service)",
+"title": "The Canadian Prairie Soil Spectral Library (CPSSL)",
+"year": "Ongoing (accessed 2026)",
+"doi": null,
+"decision": "Include",
+"role": "Introduces",
+"libraries": [
+"CA-CPSSL"
+],
+"note": null,
+"samples": "8396 spectra",
+"spectral": "vis-NIR",
+"country_text": "Canadian prairies"
+}
+]

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Soil Spectral Library Atlas</title>
+<meta name="description" content="Interactive atlas of soil spectral libraries (SSLs) worldwide, from a systematic review of the literature.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231f5d58'/%3E%3Cpath d='M5 22c4-6 8-6 11-3s7 3 11-3' stroke='%23bcd9d1' stroke-width='2.5' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="eyebrow">Systematic review</span>
+    <h1>Soil Spectral Library Atlas</h1>
+  </div>
+  <nav class="tabs" role="tablist" aria-label="Views">
+    <button role="tab" data-view="map" aria-selected="true">Map</button>
+    <button role="tab" data-view="libraries" aria-selected="false">Libraries</button>
+    <button role="tab" data-view="papers" aria-selected="false">Papers</button>
+    <button role="tab" data-view="about" aria-selected="false">About</button>
+  </nav>
+  <div class="search">
+    <label for="q" class="sr">Find a country or library</label>
+    <input id="q" type="search" list="q-list" placeholder="Find a country or library…" autocomplete="off">
+    <datalist id="q-list"></datalist>
+  </div>
+</header>
+
+<main>
+  <!-- MAP VIEW -->
+  <section id="view-map" class="view map-view">
+    <aside class="panel" aria-label="Map controls and details">
+      <div class="stats" id="stats"></div>
+
+      <details open class="block">
+        <summary>Filters</summary>
+        <fieldset>
+          <legend>Library scale</legend>
+          <div class="chips" id="f-scale"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Spectral range</legend>
+          <div class="chips" id="f-spec"></div>
+        </fieldset>
+        <div class="row2">
+          <label>Continent
+            <select id="f-cont"><option value="">All</option></select>
+          </label>
+          <label>Minimum samples
+            <select id="f-min">
+              <option value="0">Any</option>
+              <option value="200">≥ 200</option>
+              <option value="1000">≥ 1,000</option>
+              <option value="10000">≥ 10,000</option>
+            </select>
+          </label>
+        </div>
+        <label class="check"><input type="checkbox" id="f-intro"> Only libraries whose introducing paper is in the review</label>
+        <button class="link" id="f-reset" type="button">Reset filters</button>
+      </details>
+
+      <details open class="block">
+        <summary>Layers</summary>
+        <div class="seg" role="radiogroup" aria-label="Country shading">
+          <label><input type="radio" name="mode" value="scale" checked> Highest scale</label>
+          <label><input type="radio" name="mode" value="count"> Number of libraries</label>
+        </div>
+        <label class="check"><input type="checkbox" id="l-points" checked> Library locations (sized by samples, coloured by spectral range)</label>
+        <label class="check"><input type="checkbox" id="l-choro" checked> Country shading</label>
+        <label class="range">Shading opacity <input type="range" id="l-opacity" min="0.2" max="1" step="0.05" value="0.8"></label>
+        <div class="exports">
+          <span>Export filtered data</span>
+          <button type="button" data-export="libs-geojson">Libraries · GeoJSON</button>
+          <button type="button" data-export="countries-geojson">Countries · GeoJSON</button>
+          <button type="button" data-export="libs-csv">Libraries · CSV</button>
+        </div>
+      </details>
+
+      <section class="block details" id="details" aria-live="polite">
+        <p class="hint">Click a country or a library point to see its details.</p>
+      </section>
+
+      <details class="block">
+        <summary>Global &amp; continental libraries <span class="count" id="glob-n"></span></summary>
+        <p class="hint">Not tied to individual countries, so they are not drawn on the map.</p>
+        <ul class="glob" id="glob"></ul>
+      </details>
+    </aside>
+    <div class="map-wrap">
+      <div id="map" role="application" aria-label="Map of soil spectral libraries"></div>
+      <div class="coords" id="coords" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- LIBRARIES TABLE -->
+  <section id="view-libraries" class="view table-view" hidden>
+    <div class="table-head">
+      <h2>Libraries <span class="count" id="lib-n"></span></h2>
+      <p class="hint">Uses the filters from the Map view. Click a row to show it on the map.</p>
+    </div>
+    <div class="tw"><table id="lib-table"><thead></thead><tbody></tbody></table></div>
+  </section>
+
+  <!-- PAPERS TABLE -->
+  <section id="view-papers" class="view table-view" hidden>
+    <div class="table-head">
+      <h2>Papers <span class="count" id="pap-n"></span></h2>
+      <div class="pfilters">
+        <label>Decision <select id="p-dec"><option value="">All</option></select></label>
+        <label>Role <select id="p-role"><option value="">All</option></select></label>
+        <label class="grow">Search <input id="p-q" type="search" placeholder="Author, title, library…"></label>
+      </div>
+    </div>
+    <div class="tw"><table id="pap-table"><thead></thead><tbody></tbody></table></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="view-about" class="view about-view" hidden>
+    <article class="prose">
+      <h2>About this atlas</h2>
+      <p>The atlas maps soil spectral libraries (SSLs) identified in a systematic review of the literature. The unit of analysis is the <strong>library</strong>, not the paper: each library is counted once, however many papers describe or use it.</p>
+      <h3>Screening criteria</h3>
+      <dl>
+        <dt>C1 Soil-specific</dt><dd>Spectra are of soils. General mineral, rock or vegetation libraries are excluded.</dd>
+        <dt>C2 Spectroscopic</dt><dd>The study measures or analyses soil spectra (vis-NIR, NIR, MIR or LWIR).</dd>
+        <dt>C3 Library-scale data</dt><dd>Spectra come from, or are added to, an identifiable library spanning multiple fields or sites, or the authors present the dataset as a library. Single-field, single-site or trial studies with no library are excluded.</dd>
+        <dt>Decision</dt><dd>Included when C1–C3 are all met. Duplicates are removed first; uncertain records are marked “Check”.</dd>
+        <dt>Paper role</dt><dd><em>Introduces</em> the library · <em>Extends / updates</em> it · <em>Methods for</em> it (standardisation, harmonisation, QA) · <em>Uses</em> it.</dd>
+      </dl>
+      <h3>Map conventions</h3>
+      <p>Countries are shaded by the largest scale of library covering them: national, sub-national only, or multi-country only. Library points sit at the approximate centre of the study region where known, otherwise at the country centroid (or the mean of member-country centroids for multi-country libraries). Point locations are indicative only.</p>
+      <h3>Data</h3>
+      <p id="about-meta"></p>
+      <p>Boundaries: Natural Earth 1:50m (public domain) via world-atlas. Basemaps: © OpenStreetMap contributors, © CARTO, Esri.</p>
+      <p>Download: <a href="data/libraries.json">libraries.json</a> · <a href="data/papers.json">papers.json</a> · <a href="data/countries.geojson">countries.geojson</a> · <a href="data/source/soil_spectral_libraries_structured.xlsx">source workbook (.xlsx)</a></p>
+    </article>
+  </section>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="js/app.js"></script>
+</body>
+</html>
